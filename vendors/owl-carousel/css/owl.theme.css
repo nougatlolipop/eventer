@@ -1,0 +1,161 @@
+.eventer-carousel-wrapper{
+	position: relative
+}
+.eventer-grid-modern .eventer-carousel .owl-item{
+	padding: 2px
+}
+.eventer-grid-featured .eventer-carousel .owl-item{
+	padding-bottom: 1px
+}
+.eventer-grid .eventer-carousel{
+	margin-left: 0!important;
+	width: 100%!important
+}
+.eventer-carousel .owl-item{
+	opacity: .3
+}
+.eventer-carousel .owl-item > li{
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 0;
+	float: none
+}
+.eventer-carousel .owl-item.active{
+	opacity: 1
+}
+.eventer-carousel .owl-item img{
+	width: auto;
+	display: inline-block
+}
+.eventer-carousel .owl-nav{
+	margin: 0;
+	text-align: center;
+	width: 100%
+}
+.eventer-carousel .owl-nav div {
+    color: #666;
+    zoom: 1;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    background: none;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+	top: 45%;
+	margin-top: -25px
+}
+.eventer-carousel .owl-nav div:hover{
+	color: #333
+}
+.eventer-carousel .owl-nav div.disabled,.eventer-carousel .owl-nav div.disabled:hover{
+	opacity: .4;
+    color: #666
+}
+.eventer-carousel .owl-nav div.owl-next{
+	right: -50px
+}
+.eventer-carousel .owl-nav div.owl-prev{
+	left: -50px
+}
+.eventer-carousel .owl-dots{
+	text-align: center;
+	width: 100%;
+	margin: 20px 0
+}
+.eventer-carousel .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+.eventer-carousel .owl-dot:hover span,
+.eventer-carousel .owl-dot.active span {
+    opacity: 1;
+    border: 0
+}
+.eventer-carousel .owl-dot span {
+    padding: 0;
+	margin: 0 5px;
+    font-size: 12px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    display: block;
+	width: 12px;
+    height: 12px;
+    background: #ddd;
+	-webkit-transition: width .5s ease;
+	transition: width .5s ease;
+	border: 1px solid transparent
+}
+.eventer-carousel .owl-dot:hover span{
+	background: #ccc
+}
+.eventer-carousel .owl-dot.active span{
+	background: #999
+}
+.owl-item.loading {
+    min-height: 150px;
+    background: url(loader.gif) center center no-repeat
+}
+.eventer-carousel {
+    margin: 0;
+    list-style-type: none
+}
+.eventer-carousel .owl-nav div.disabled,.eventer-carousel .owl-nav div.disabled:hover{
+	cursor: default;
+	opacity: .2
+}
+
+.eventer-event-slider{
+	overflow: hidden
+}
+.eventer-event-slider .eventer-carousel .owl-nav div{
+	-webkit-transition:all 0.2s ease!important;
+	-moz-transition:all 0.2s ease!important;
+	-ms-transition:all 0.2s ease!important;
+	-o-transition:all 0.2s ease!important;
+	transition:all 0.2s ease!important;
+	background: rgba(0,0,0,.6);
+	line-height: 104px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	font-size: 24px;
+	color: #fff
+}
+.eventer-event-slider .eventer-carousel .owl-nav div.owl-next{
+	right: -100px;
+	text-align: left;
+	padding-left: 20px
+}
+.eventer-event-slider .eventer-carousel .owl-nav div.owl-prev{
+	left: -100px;
+	text-align: right;
+	padding-right: 20px
+}
+.eventer-event-slider:hover .eventer-carousel .owl-nav div.owl-next{
+	right: -50px
+}
+.eventer-event-slider:hover .eventer-carousel .owl-nav div.owl-prev{
+	left: -50px
+}
+.eventer-event-slider .eventer-carousel .owl-dots{
+	position: absolute;
+	-webkit-transition:all 0.2s ease!important;
+	-moz-transition:all 0.2s ease!important;
+	-ms-transition:all 0.2s ease!important;
+	-o-transition:all 0.2s ease!important;
+	transition:all 0.2s ease!important;
+	bottom: -50px
+}
+.eventer-event-slider:hover .eventer-carousel .owl-dots{
+	bottom: 0
+}
+.eventer-event-slider .eventer-carousel .owl-dot span{
+    background: rgba(0,0,0,.4);
+}
+.eventer-event-slider .eventer-carousel .owl-dot.active span,.eventer-event-slider .eventer-carousel .owl-dot:hover span,.eventer-event-slider .eventer-carousel .owl-nav div:hover{
+    background: rgba(0,0,0,.9);
+}

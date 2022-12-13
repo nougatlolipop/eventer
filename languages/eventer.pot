@@ -1,0 +1,5053 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Eventer\n"
+"POT-Creation-Date: 2021-06-04 01:47+0530\n"
+"PO-Revision-Date: 2021-06-04 01:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eventer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: VC/vc_init.php:55
+msgid "Upcoming Event Countdown"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: VC/vc_init.php:57 VC/vc_init.php:181 VC/vc_init.php:392 VC/vc_init.php:579
+#: admin/eventer-type.php:35 admin/eventer-type.php:36
+msgid "Eventer"
+msgstr ""
+
+#: VC/vc_init.php:63 VC/vc_init.php:188 VC/vc_init.php:399
+#: WC/wc_functions.php:84 admin/settings_page.php:3293
+#: admin/settings_page.php:3306 admin/settings_page.php:3449
+#: eventers/list/list-detailed.php:17 eventers/modal/modal-thanks.php:61
+#: eventers/modal/modal-tickets.php:35 front/eventer_actions.php:811
+#: front/shortcodes.php:77
+msgid "Event"
+msgstr ""
+
+#: VC/vc_init.php:71 admin/settings_page.php:1894 admin/settings_page.php:2281
+#: admin/settings_page.php:2714 admin/settings_page.php:2822
+#: admin/settings_page.php:3832 admin/settings_page.php:3864
+msgid "Event Category"
+msgstr ""
+
+#: VC/vc_init.php:79 admin/eventer-type.php:66 admin/eventer-type.php:67
+msgid "Event Tag"
+msgstr ""
+
+#: VC/vc_init.php:87 admin/settings_page.php:2127 admin/settings_page.php:2486
+#: admin/settings_page.php:3856 front/eventer_rest_endpoints.php:667
+msgid "Event Venue"
+msgstr ""
+
+#: VC/vc_init.php:95 admin/settings_page.php:2128 admin/settings_page.php:2487
+#: front/eventer_rest_endpoints.php:663
+msgid "Event Organizer"
+msgstr ""
+
+#: VC/vc_init.php:103 VC/vc_init.php:313 VC/vc_init.php:500
+msgid "Show Event Venue"
+msgstr ""
+
+#: VC/vc_init.php:104 admin/settings_page.php:1816
+msgid ""
+"Select Yes if you want to show your event venue address in the upcoming "
+"event counter."
+msgstr ""
+
+#: VC/vc_init.php:106 VC/vc_init.php:268 VC/vc_init.php:333 VC/vc_init.php:520
+#: VC/vc_init.php:652 WC/wc_meta_fields.php:227 admin/meta_fields.php:638
+#: admin/meta_fields.php:665 admin/meta_fields.php:666
+#: admin/meta_fields.php:726 admin/meta_fields.php:727
+#: admin/meta_fields.php:785 admin/meta_fields.php:786
+#: admin/meta_fields.php:1281 admin/settings_page.php:343
+#: admin/settings_page.php:352 admin/settings_page.php:361
+#: admin/settings_page.php:370 admin/settings_page.php:379
+#: admin/settings_page.php:401 admin/settings_page.php:426
+#: admin/settings_page.php:436 admin/settings_page.php:446
+#: admin/settings_page.php:492 admin/settings_page.php:502
+#: admin/settings_page.php:512 admin/settings_page.php:522
+#: admin/settings_page.php:532 admin/settings_page.php:542
+#: admin/settings_page.php:552 admin/settings_page.php:897
+#: admin/settings_page.php:907 admin/settings_page.php:976
+#: admin/settings_page.php:996 admin/settings_page.php:1004
+#: admin/settings_page.php:1265 admin/settings_page.php:1317
+#: admin/settings_page.php:1383 admin/settings_page.php:1450
+#: admin/settings_page.php:1807 admin/settings_page.php:1987
+#: admin/settings_page.php:2006 admin/settings_page.php:2025
+#: admin/settings_page.php:2210 admin/settings_page.php:2374
+#: admin/settings_page.php:2393 admin/settings_page.php:2594
+#: admin/settings_page.php:2625 admin/settings_page.php:2640
+#: admin/settings_page.php:2649 admin/settings_page.php:2659
+#: admin/settings_page.php:2914 admin/settings_page.php:3147
+#: admin/settings_page.php:3803 front/eventer_rest_endpoints.php:586
+msgid "Yes"
+msgstr ""
+
+#: VC/vc_init.php:106 VC/vc_init.php:268 VC/vc_init.php:316 VC/vc_init.php:333
+#: VC/vc_init.php:503 VC/vc_init.php:520 VC/vc_init.php:652
+#: WC/wc_meta_fields.php:226 admin/meta_fields.php:151
+#: admin/meta_fields.php:1280 admin/settings_page.php:344
+#: admin/settings_page.php:353 admin/settings_page.php:362
+#: admin/settings_page.php:371 admin/settings_page.php:380
+#: admin/settings_page.php:402 admin/settings_page.php:427
+#: admin/settings_page.php:437 admin/settings_page.php:447
+#: admin/settings_page.php:493 admin/settings_page.php:503
+#: admin/settings_page.php:513 admin/settings_page.php:523
+#: admin/settings_page.php:533 admin/settings_page.php:543
+#: admin/settings_page.php:553 admin/settings_page.php:898
+#: admin/settings_page.php:908 admin/settings_page.php:977
+#: admin/settings_page.php:997 admin/settings_page.php:1005
+#: admin/settings_page.php:1268 admin/settings_page.php:1320
+#: admin/settings_page.php:1386 admin/settings_page.php:1453
+#: admin/settings_page.php:1808 admin/settings_page.php:1986
+#: admin/settings_page.php:2005 admin/settings_page.php:2024
+#: admin/settings_page.php:2124 admin/settings_page.php:2172
+#: admin/settings_page.php:2209 admin/settings_page.php:2373
+#: admin/settings_page.php:2392 admin/settings_page.php:2483
+#: admin/settings_page.php:2556 admin/settings_page.php:2593
+#: admin/settings_page.php:2626 admin/settings_page.php:2641
+#: admin/settings_page.php:2650 admin/settings_page.php:2658
+#: admin/settings_page.php:2915 admin/settings_page.php:3146
+#: admin/settings_page.php:3804 front/eventer_rest_endpoints.php:585
+msgid "No"
+msgstr ""
+
+#: VC/vc_init.php:111 VC/vc_init.php:257 admin/settings_page.php:1961
+#: admin/settings_page.php:2348 admin/settings_page.php:2889
+msgid "Event Type"
+msgstr ""
+
+#: VC/vc_init.php:112 admin/settings_page.php:1835
+msgid "Select which event type you want to show in the upcoming event counter."
+msgstr ""
+
+#: VC/vc_init.php:114 VC/vc_init.php:260 VC/vc_init.php:471 VC/vc_init.php:644
+#: admin/settings_page.php:1826 admin/settings_page.php:1967
+#: admin/settings_page.php:2354 admin/settings_page.php:2895
+#: front/eventer_rest_endpoints.php:593 front/eventer_rest_endpoints.php:612
+msgid "WP"
+msgstr ""
+
+#: VC/vc_init.php:114 VC/vc_init.php:260 VC/vc_init.php:471 VC/vc_init.php:644
+#: admin/settings_page.php:1827 admin/settings_page.php:1968
+#: admin/settings_page.php:2355 admin/settings_page.php:2896
+msgid "Google"
+msgstr ""
+
+#: VC/vc_init.php:119
+msgid "Show Counter Until"
+msgstr ""
+
+#: VC/vc_init.php:120 admin/settings_page.php:1854
+msgid ""
+"Select till what time an event will be shown in the upcoming event counter."
+msgstr ""
+
+#: VC/vc_init.php:122 admin/meta_fields.php:934 admin/settings_page.php:1845
+msgid "Start Time"
+msgstr ""
+
+#: VC/vc_init.php:122 admin/meta_fields.php:935 admin/settings_page.php:1846
+msgid "End Time"
+msgstr ""
+
+#: VC/vc_init.php:179
+msgid "Events List"
+msgstr ""
+
+#: VC/vc_init.php:190 VC/vc_init.php:401
+msgid ""
+"You can select specific events to show in the list. Start typing event title "
+"to add to the list. Multiple events can be added here."
+msgstr ""
+
+#: VC/vc_init.php:202 VC/vc_init.php:288 VC/vc_init.php:413 VC/vc_init.php:586
+msgid "Categories"
+msgstr ""
+
+#: VC/vc_init.php:204 VC/vc_init.php:415 VC/vc_init.php:588
+msgid ""
+"You can select category here to show selected events. Start typing category "
+"name to add to the list. Multiple categories can be added here."
+msgstr ""
+
+#: VC/vc_init.php:216 VC/vc_init.php:288 VC/vc_init.php:427 VC/vc_init.php:600
+#: front/front_functions.php:3195
+msgid "Tags"
+msgstr ""
+
+#: VC/vc_init.php:218 VC/vc_init.php:429 VC/vc_init.php:602
+msgid ""
+"You can select tag here to show selected events. Start typing tag nam\\e to "
+"add to the list. Multiple tags can be added here."
+msgstr ""
+
+#: VC/vc_init.php:230 VC/vc_init.php:288 VC/vc_init.php:441 VC/vc_init.php:614
+#: admin/eventer-type.php:82 admin/eventer-type.php:92
+msgid "Venues"
+msgstr ""
+
+#: VC/vc_init.php:232 VC/vc_init.php:443 VC/vc_init.php:616
+msgid ""
+"You can select venue here to show selected events. Start typing venue title "
+"to add to the list. Multiple venues can be added here."
+msgstr ""
+
+#: VC/vc_init.php:244 VC/vc_init.php:288 VC/vc_init.php:455 VC/vc_init.php:628
+#: admin/eventer-type.php:111 admin/eventer-type.php:121
+msgid "Organizers"
+msgstr ""
+
+#: VC/vc_init.php:246 VC/vc_init.php:457 VC/vc_init.php:630
+msgid ""
+"You can select organizer here to show selected events. Start typing "
+"organizer title to add to the list. Multiple organizers can be added here."
+msgstr ""
+
+#: VC/vc_init.php:258 VC/vc_init.php:469 admin/settings_page.php:1976
+msgid ""
+"Select event type for the list. You can choose All to show both WordPress "
+"and Google Calendar events in the list or WP/Google to show selected events "
+"only."
+msgstr ""
+
+#: VC/vc_init.php:260 VC/vc_init.php:471 VC/vc_init.php:644
+#: admin/admin_functions.php:418 admin/settings_page.php:1966
+#: admin/settings_page.php:2353 admin/settings_page.php:3237
+#: front/shortcodes.php:936
+msgid "All"
+msgstr ""
+
+#: VC/vc_init.php:265
+msgid "Show Filters"
+msgstr ""
+
+#: VC/vc_init.php:266 admin/settings_page.php:2033 admin/settings_page.php:2401
+msgid ""
+"Select Yes to show a month filter above the list of events, which allows "
+"users to go to next/prev months or to the next 12 months events."
+msgstr ""
+
+#: VC/vc_init.php:273
+msgid "View Options"
+msgstr ""
+
+#: VC/vc_init.php:274
+msgid ""
+"Choose options for view of events list. You can check multiple views. For "
+"none check none option only."
+msgstr ""
+
+#: VC/vc_init.php:276 VC/vc_init.php:288 admin/settings_page.php:2066
+#: admin/settings_page.php:2434
+msgid "None"
+msgstr ""
+
+#: VC/vc_init.php:276 VC/vc_init.php:300 admin/settings_page.php:2044
+#: admin/settings_page.php:2094 admin/settings_page.php:2412
+#: admin/settings_page.php:2462 eventers/filters/filter-calendar.php:24
+#: front/front_functions.php:3106
+msgid "Yearly"
+msgstr ""
+
+#: VC/vc_init.php:276 VC/vc_init.php:300 admin/settings_page.php:2045
+#: admin/settings_page.php:2095 admin/settings_page.php:2413
+#: admin/settings_page.php:2463 eventers/filters/filter-calendar.php:27
+#: front/front_functions.php:3129
+msgid "Monthly"
+msgstr ""
+
+#: VC/vc_init.php:276 VC/vc_init.php:300 admin/settings_page.php:2046
+#: admin/settings_page.php:2096 admin/settings_page.php:2414
+#: admin/settings_page.php:2464 eventers/filters/filter-calendar.php:30
+#: front/front_functions.php:3109
+msgid "Weekly"
+msgstr ""
+
+#: VC/vc_init.php:276 VC/vc_init.php:300 admin/settings_page.php:2047
+#: admin/settings_page.php:2097 admin/settings_page.php:2415
+#: admin/settings_page.php:2465 eventers/filters/filter-calendar.php:33
+#: front/front_functions.php:3112
+msgid "Daily"
+msgstr ""
+
+#: VC/vc_init.php:276 admin/settings_page.php:2071 admin/settings_page.php:2439
+#: eventers/filters/filter-calendar.php:18 front/front_functions.php:3140
+msgid "Today"
+msgstr ""
+
+#: VC/vc_init.php:276 admin/settings_page.php:2072 admin/settings_page.php:2440
+msgid "Date Range"
+msgstr ""
+
+#: VC/vc_init.php:285
+msgid "Filter Options"
+msgstr ""
+
+#: VC/vc_init.php:286
+msgid ""
+"Choose type of filters to show for events. You can check multiple views. For "
+"none check none option only."
+msgstr ""
+
+#: VC/vc_init.php:297
+msgid "Event Status"
+msgstr ""
+
+#: VC/vc_init.php:298 VC/vc_init.php:477
+msgid "Select the default view of the events to show in the list."
+msgstr ""
+
+#: VC/vc_init.php:300 VC/vc_init.php:479 admin/settings_page.php:2043
+#: admin/settings_page.php:2092 admin/settings_page.php:2411
+#: admin/settings_page.php:2460
+msgid "Future"
+msgstr ""
+
+#: VC/vc_init.php:300 VC/vc_init.php:479 admin/settings_page.php:2048
+#: admin/settings_page.php:2093 admin/settings_page.php:2416
+#: admin/settings_page.php:2461
+msgid "Past"
+msgstr ""
+
+#: VC/vc_init.php:305
+msgid "List Style"
+msgstr ""
+
+#: VC/vc_init.php:306 admin/settings_page.php:2160
+msgid "Select style of the list for the events."
+msgstr ""
+
+#: VC/vc_init.php:308 admin/settings_page.php:2145
+msgid "Compact"
+msgstr ""
+
+#: VC/vc_init.php:308 admin/settings_page.php:2146
+msgid "Minimal"
+msgstr ""
+
+#: VC/vc_init.php:314 VC/vc_init.php:501 admin/settings_page.php:2180
+msgid "Select Yes to show event venue address for every event in the list."
+msgstr ""
+
+#: VC/vc_init.php:316 VC/vc_init.php:503 admin/settings_page.php:2170
+msgid "Yes (Show full address)"
+msgstr ""
+
+#: VC/vc_init.php:316 VC/vc_init.php:503 admin/settings_page.php:2171
+msgid "Yes (Show venue name)"
+msgstr ""
+
+#: VC/vc_init.php:321 VC/vc_init.php:508
+msgid "Events Per Page"
+msgstr ""
+
+#: VC/vc_init.php:322
+msgid ""
+"Select the number of events to show per page when event month filter is "
+"active."
+msgstr ""
+
+#: VC/vc_init.php:324 VC/vc_init.php:511 admin/settings_page.php:2247
+#: front/eventer_rest_endpoints.php:592 front/eventer_rest_endpoints.php:611
+msgid "Default"
+msgstr ""
+
+#: VC/vc_init.php:330 VC/vc_init.php:517
+msgid "Show Pagination"
+msgstr ""
+
+#: VC/vc_init.php:331 admin/settings_page.php:2218
+msgid ""
+"Select Yes to show pagination below the events list. This will use events "
+"per page option."
+msgstr ""
+
+#: VC/vc_init.php:390
+msgid "Events Grid"
+msgstr ""
+
+#: VC/vc_init.php:468 VC/vc_init.php:641
+msgid "Events Type"
+msgstr ""
+
+#: VC/vc_init.php:476
+msgid "Events Status"
+msgstr ""
+
+#: VC/vc_init.php:484
+msgid "Grid Background Style"
+msgstr ""
+
+#: VC/vc_init.php:485 admin/settings_page.php:2523
+msgid ""
+"Select the background option for the grid items. Default will show featured "
+"image if available else Category selected color as background if available "
+"else it will be plain white background."
+msgstr ""
+
+#: VC/vc_init.php:487 admin/settings_page.php:2512
+msgid "Default - Featured Image/Category Color/Plain"
+msgstr ""
+
+#: VC/vc_init.php:487 admin/settings_page.php:2513
+msgid "Plain"
+msgstr ""
+
+#: VC/vc_init.php:487 admin/meta_fields.php:535 admin/meta_fields.php:546
+#: admin/settings_page.php:2514
+msgid "Event Category Color"
+msgstr ""
+
+#: VC/vc_init.php:487 admin/settings_page.php:2515 admin/settings_page.php:3830
+#: admin/settings_page.php:3862 front/eventer_rest_endpoints.php:572
+msgid "Featured Image"
+msgstr ""
+
+#: VC/vc_init.php:492
+msgid "Grid Columns"
+msgstr ""
+
+#: VC/vc_init.php:493 admin/settings_page.php:2544
+msgid "Select columns for the grid."
+msgstr ""
+
+#: VC/vc_init.php:495 admin/settings_page.php:2533
+msgid "Default(Three Columns)"
+msgstr ""
+
+#: VC/vc_init.php:495 admin/settings_page.php:2534
+msgid "One Column"
+msgstr ""
+
+#: VC/vc_init.php:495 admin/settings_page.php:2535
+msgid "Two Columns"
+msgstr ""
+
+#: VC/vc_init.php:495 admin/settings_page.php:2536
+msgid "Four Columns"
+msgstr ""
+
+#: VC/vc_init.php:509
+msgid "Select the number of events to show per page in grid."
+msgstr ""
+
+#: VC/vc_init.php:518 admin/settings_page.php:2603
+msgid ""
+"Select Yes to show pagination below the events grid. This will use events "
+"per page option."
+msgstr ""
+
+#: VC/vc_init.php:577
+msgid "Events Calendar"
+msgstr ""
+
+#: VC/vc_init.php:642 admin/settings_page.php:2904
+msgid ""
+"Select event type for the calendar. You can choose All to show both "
+"WordPress and Google Calendar events in the calendar or WP/Google to show "
+"selected events only."
+msgstr ""
+
+#: VC/vc_init.php:649 admin/settings_page.php:2909
+msgid "Event Preview"
+msgstr ""
+
+#: VC/vc_init.php:650
+msgid ""
+"Select yes to show a quick preview of event details including tickets info "
+"on hover of events title in calendar."
+msgstr ""
+
+#: WC/wc_functions.php:79 WC/wc_functions.php:441 front/eventer_actions.php:755
+#: front/front_functions.php:312 front/front_functions.php:366
+#: front/front_functions.php:451
+msgid "All day"
+msgstr ""
+
+#: WC/wc_functions.php:95 WC/wc_functions.php:375 front/eventer_actions.php:342
+msgid "Event Date"
+msgstr ""
+
+#: WC/wc_functions.php:101 WC/wc_functions.php:379
+msgid "Services"
+msgstr ""
+
+#: WC/wc_functions.php:371
+msgid "Event Ticket"
+msgstr ""
+
+#: WC/wc_functions.php:373
+msgid "Event name"
+msgstr ""
+
+#: WC/wc_functions.php:377 admin/settings_page.php:606
+#: admin/settings_page.php:631 admin/settings_page.php:692
+msgid "Event URL"
+msgstr ""
+
+#: WC/wc_functions.php:415 admin/settings_page.php:3518
+#: front/shortcodes.php:845 front/shortcodes.php:846
+msgid "Download Tickets"
+msgstr ""
+
+#: WC/wc_meta_fields.php:10 admin/meta_fields.php:1124
+msgid "Event Tickets"
+msgstr ""
+
+#: WC/wc_meta_fields.php:11 admin/meta_fields.php:1125
+msgid "Date Wise Event Booking Record"
+msgstr ""
+
+#: WC/wc_meta_fields.php:29 admin/meta_fields.php:1143
+msgid "You can not add ticket for this event, as this event is the copy of "
+msgstr ""
+
+#: WC/wc_meta_fields.php:37 WC/wc_meta_fields.php:193
+#: admin/meta_fields.php:1153 admin/meta_fields.php:1249
+msgid "Ticket Type"
+msgstr ""
+
+#: WC/wc_meta_fields.php:38 WC/wc_meta_fields.php:76 WC/wc_meta_fields.php:101
+#: admin/meta_fields.php:1154 admin/meta_fields.php:1171
+msgid "No of Tickets"
+msgstr ""
+
+#: WC/wc_meta_fields.php:39 WC/wc_meta_fields.php:77 WC/wc_meta_fields.php:102
+#: WC/wc_meta_fields.php:195 WC/wc_meta_fields.php:208
+#: admin/meta_fields.php:600 admin/meta_fields.php:642
+#: admin/meta_fields.php:1155 admin/meta_fields.php:1173
+#: admin/meta_fields.php:1251 admin/meta_fields.php:1267
+#: front/front_functions.php:3417
+msgid "Price"
+msgstr ""
+
+#: WC/wc_meta_fields.php:40
+msgid "Enable on"
+msgstr ""
+
+#: WC/wc_meta_fields.php:41
+msgid "Woocommerce Ticket Actions"
+msgstr ""
+
+#: WC/wc_meta_fields.php:46 admin/meta_fields.php:585 admin/meta_fields.php:625
+msgid "Add new"
+msgstr ""
+
+#: WC/wc_meta_fields.php:58 admin/settings_page.php:3871
+msgid "Add"
+msgstr ""
+
+#: WC/wc_meta_fields.php:67 admin/settings_page.php:3531
+#: front/shortcodes.php:536
+msgid "Update"
+msgstr ""
+
+#: WC/wc_meta_fields.php:75 WC/wc_meta_fields.php:100 WC/wc_meta_fields.php:206
+#: admin/meta_fields.php:1170 admin/meta_fields.php:1265
+msgid "Name of Ticket"
+msgstr ""
+
+#: WC/wc_meta_fields.php:80
+msgid "Select date"
+msgstr ""
+
+#: WC/wc_meta_fields.php:92 admin/admin_functions.php:22
+#: admin/meta_fields.php:698 admin/meta_fields.php:759
+#: admin/meta_fields.php:818 admin/meta_fields.php:976
+#: admin/meta_fields.php:1046 admin/settings_page.php:777
+#: admin/settings_page.php:3433 admin/settings_page.php:3836
+#: admin/settings_page.php:3868
+msgid "Remove"
+msgstr ""
+
+#: WC/wc_meta_fields.php:93
+msgid "View Ticket Woocommerce Product"
+msgstr ""
+
+#: WC/wc_meta_fields.php:117 admin/meta_fields.php:1180
+msgid "Add Ticket"
+msgstr ""
+
+#: WC/wc_meta_fields.php:120
+msgid "Disable the booking before number of days Ex: 2."
+msgstr ""
+
+#: WC/wc_meta_fields.php:121
+msgid "Enter the number of days"
+msgstr ""
+
+#: WC/wc_meta_fields.php:122 WC/wc_meta_fields.php:229
+#: admin/meta_fields.php:1185
+msgid "Use this field to set common ticket count for all tickets."
+msgstr ""
+
+#: WC/wc_meta_fields.php:123 WC/wc_meta_fields.php:230
+#: admin/meta_fields.php:1186 admin/meta_fields.php:1284
+msgid "Ticket count"
+msgstr ""
+
+#: WC/wc_meta_fields.php:124
+msgid "Tickets settings"
+msgstr ""
+
+#: WC/wc_meta_fields.php:126
+msgid "Select options if you are modifying any of ticket info"
+msgstr ""
+
+#: WC/wc_meta_fields.php:127
+msgid "Reset tickets for all date"
+msgstr ""
+
+#: WC/wc_meta_fields.php:128
+msgid "Reset tickets except quantity"
+msgstr ""
+
+#: WC/wc_meta_fields.php:133
+msgid ""
+"If common ticket count field using then all tickets booking will deduct "
+"counting from this field only."
+msgstr ""
+
+#: WC/wc_meta_fields.php:134
+msgid ""
+"Do not add currency in price field, currency should be selected from "
+"WooCommerce => Settings => General"
+msgstr ""
+
+#: WC/wc_meta_fields.php:135
+msgid ""
+"Ticket quantity is maintained on per date basis by the Eventer plugin only. "
+"Quantity/SKU/Inventory of WooCommerce product will not work here. Add "
+"quantity here for the ticket type which will be avilable for all events "
+"using the same ticket type."
+msgstr ""
+
+#: WC/wc_meta_fields.php:136
+msgid ""
+"To add a new ticket type, enter the name, quantity and price for it and "
+"select \"Add New\" from the dropdown. To use a pre built ticket type select "
+"it from the dropdown available."
+msgstr ""
+
+#: WC/wc_meta_fields.php:156 admin/meta_fields.php:1209
+msgid "Select date to load ticket info"
+msgstr ""
+
+#: WC/wc_meta_fields.php:158 admin/meta_fields.php:199
+#: admin/meta_fields.php:1211 admin/settings_page.php:3070
+#: admin/settings_page.php:3850 front/eventer_rest_endpoints.php:642
+#: front/front_functions.php:3500 front/shortcodes.php:226
+#: front/shortcodes.php:315 front/shortcodes.php:328
+msgid "Select"
+msgstr ""
+
+#: WC/wc_meta_fields.php:159 admin/meta_fields.php:1212
+msgid "Enable Reset Button"
+msgstr ""
+
+#: WC/wc_meta_fields.php:175 admin/meta_fields.php:1229
+msgid "Select time slot"
+msgstr ""
+
+#: WC/wc_meta_fields.php:177 admin/meta_fields.php:1231
+#: front/front_functions.php:2551
+msgid "Select Time"
+msgstr ""
+
+#: WC/wc_meta_fields.php:194 WC/wc_meta_fields.php:207
+#: admin/meta_fields.php:1250 admin/meta_fields.php:1266
+msgid "Available Tickets"
+msgstr ""
+
+#: WC/wc_meta_fields.php:196
+msgid "Enable On"
+msgstr ""
+
+#: WC/wc_meta_fields.php:221 admin/meta_fields.php:1276
+msgid "Add custom label for the selected date event"
+msgstr ""
+
+#: WC/wc_meta_fields.php:222 admin/meta_fields.php:1277
+msgid "Add Label"
+msgstr ""
+
+#: WC/wc_meta_fields.php:224 admin/meta_fields.php:1278
+msgid "Make selected date event to be featured"
+msgstr ""
+
+#: WC/wc_meta_fields.php:233 admin/admin_functions.php:21
+#: admin/meta_fields.php:1287 admin/settings_page.php:804
+#: admin/settings_page.php:3872
+msgid "Save"
+msgstr ""
+
+#: WC/wc_meta_fields.php:236 admin/meta_fields.php:1290
+msgid "Reset All Dates to Default"
+msgstr ""
+
+#: WC/wc_meta_fields.php:240 admin/meta_fields.php:829
+#: admin/meta_fields.php:1190 admin/meta_fields.php:1293
+msgid ""
+"Do not add currency in price field, currency should be selected from PayPal "
+"Configuration Settings"
+msgstr ""
+
+#: WC/wc_meta_fields.php:241 admin/meta_fields.php:1294
+msgid ""
+"Events dates are listing only between two years before and two years after "
+"from current date."
+msgstr ""
+
+#: WC/wc_meta_fields.php:242 admin/meta_fields.php:1295
+msgid ""
+"Ticket details are showing through original events of this language, like "
+"ticket details of default language of this post."
+msgstr ""
+
+#: WC/wc_meta_fields.php:243 admin/meta_fields.php:1296
+msgid ""
+"Label: A custom label is a small piece of text you can show next to event "
+"title. This can be used to show a small message like \"Upcoming\" next to "
+"event title. This field can be used differently for each selected date in "
+"this section."
+msgstr ""
+
+#: admin/admin_functions.php:18
+msgid ""
+"Recurring options will not work if you select event of more than one day/24 "
+"hours."
+msgstr ""
+
+#: admin/admin_functions.php:19
+msgid "Primary"
+msgstr ""
+
+#: admin/admin_functions.php:20
+msgid "Saving"
+msgstr ""
+
+#: admin/admin_functions.php:25
+msgid "shortcode copied to clipboard"
+msgstr ""
+
+#: admin/admin_functions.php:94 admin/meta_fields.php:936
+msgid "Description"
+msgstr ""
+
+#: admin/admin_functions.php:399
+msgid "Next Future Event"
+msgstr ""
+
+#: admin/admin_functions.php:733
+msgid "EDate"
+msgstr ""
+
+#: admin/admin_functions.php:949 front/eventer_actions.php:344
+msgid "Location"
+msgstr ""
+
+#: admin/admin_functions.php:954 admin/settings_page.php:2957
+#: admin/settings_page.php:3451 eventers/modal/modal-contact.php:17
+#: front/eventer_rest_endpoints.php:574 front/front_functions.php:65
+#: front/shortcodes.php:702 front/shortcodes.php:723
+msgid "Email"
+msgstr ""
+
+#: admin/admin_functions.php:954 eventers/modal/modal-contact.php:19
+msgid "Phone"
+msgstr ""
+
+#: admin/admin_functions.php:954
+msgid "Website"
+msgstr ""
+
+#: admin/bookings-details.php:5 admin/bookings-details.php:6
+msgid "Eventer Booking Info"
+msgstr ""
+
+#: admin/eventer-type.php:17
+msgctxt "slug"
+msgid "eventer"
+msgstr ""
+
+#: admin/eventer-type.php:20
+msgctxt "slug"
+msgid "eventer-category"
+msgstr ""
+
+#: admin/eventer-type.php:23
+msgctxt "slug"
+msgid "eventer-tag"
+msgstr ""
+
+#: admin/eventer-type.php:26
+msgctxt "slug"
+msgid "eventer-venue"
+msgstr ""
+
+#: admin/eventer-type.php:29
+msgctxt "slug"
+msgid "eventer-organizer"
+msgstr ""
+
+#: admin/eventer-type.php:37 admin/eventer-type.php:39
+msgid "Add New"
+msgstr ""
+
+#: admin/eventer-type.php:38 admin/settings_page.php:3267
+msgid "All Events"
+msgstr ""
+
+#: admin/eventer-type.php:40 front/shortcodes.php:965
+msgid "Edit"
+msgstr ""
+
+#: admin/eventer-type.php:41
+msgid "New"
+msgstr ""
+
+#: admin/eventer-type.php:42
+msgid "View"
+msgstr ""
+
+#: admin/eventer-type.php:43 admin/settings_page.php:3257
+#: admin/settings_page.php:3259
+msgid "Search"
+msgstr ""
+
+#: admin/eventer-type.php:44
+msgid "Nothing found"
+msgstr ""
+
+#: admin/eventer-type.php:45
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: admin/eventer-type.php:49 admin/settings_page.php:2125
+#: admin/settings_page.php:2484 front/eventer_rest_endpoints.php:575
+msgid "Event Categories"
+msgstr ""
+
+#: admin/eventer-type.php:50
+msgid "Event Categroy"
+msgstr ""
+
+#: admin/eventer-type.php:83 admin/eventer-type.php:96
+#: admin/settings_page.php:1928 admin/settings_page.php:2315
+#: admin/settings_page.php:2748 admin/settings_page.php:2856
+#: eventers/list/list-detailed.php:24 front/eventer_rest_endpoints.php:755
+#: front/front_functions.php:3198 front/shortcodes.php:953
+msgid "Venue"
+msgstr ""
+
+#: admin/eventer-type.php:84
+msgid "Search Venues"
+msgstr ""
+
+#: admin/eventer-type.php:85
+msgid "All Venues"
+msgstr ""
+
+#: admin/eventer-type.php:86
+msgid "Parent Venue"
+msgstr ""
+
+#: admin/eventer-type.php:87
+msgid "Parent Venue:"
+msgstr ""
+
+#: admin/eventer-type.php:88
+msgid "Edit Venue"
+msgstr ""
+
+#: admin/eventer-type.php:89
+msgid "Update Venue"
+msgstr ""
+
+#: admin/eventer-type.php:90
+msgid "Add New Venue"
+msgstr ""
+
+#: admin/eventer-type.php:91
+msgid "New Venue Name"
+msgstr ""
+
+#: admin/eventer-type.php:112 admin/eventer-type.php:125
+#: admin/settings_page.php:2332 admin/settings_page.php:2765
+#: admin/settings_page.php:2873 eventers/modal/modal-thanks.php:87
+#: front/eventer_rest_endpoints.php:755 front/front_functions.php:3201
+#: front/shortcodes.php:957
+msgid "Organizer"
+msgstr ""
+
+#: admin/eventer-type.php:113
+msgid "Search Organizers"
+msgstr ""
+
+#: admin/eventer-type.php:114
+msgid "All Organizers"
+msgstr ""
+
+#: admin/eventer-type.php:115
+msgid "Parent Organizer"
+msgstr ""
+
+#: admin/eventer-type.php:116
+msgid "Parent Organizer:"
+msgstr ""
+
+#: admin/eventer-type.php:117
+msgid "Edit Organizer"
+msgstr ""
+
+#: admin/eventer-type.php:118
+msgid "Update Organizer"
+msgstr ""
+
+#: admin/eventer-type.php:119
+msgid "Add New Organizer"
+msgstr ""
+
+#: admin/eventer-type.php:120
+msgid "New Organizer Name"
+msgstr ""
+
+#: admin/meta_fields.php:74
+msgid "Event Details"
+msgstr ""
+
+#: admin/meta_fields.php:80
+msgid "Event Start Date & Time"
+msgstr ""
+
+#: admin/meta_fields.php:81
+msgid "Insert start date and time of event."
+msgstr ""
+
+#: admin/meta_fields.php:89
+msgid "Event End Date & Time"
+msgstr ""
+
+#: admin/meta_fields.php:90
+msgid "Insert end date and time of event."
+msgstr ""
+
+#: admin/meta_fields.php:98
+msgid "Set time"
+msgstr ""
+
+#: admin/meta_fields.php:99
+msgid ""
+"Set start and end time for each day, Ex: 1 Jan 2021 - 5 Jan 2021 for date "
+"and 14:00 - 15:00 Everyday for time"
+msgstr ""
+
+#: admin/meta_fields.php:105 front/eventer_rest_endpoints.php:647
+msgid "All Day Event"
+msgstr ""
+
+#: admin/meta_fields.php:106
+msgid ""
+"Check this if you want to make this event as a full day event. Event start "
+"and end time will not be visible on the website."
+msgstr ""
+
+#: admin/meta_fields.php:112
+msgid "Featured Event"
+msgstr ""
+
+#: admin/meta_fields.php:113
+msgid ""
+"Check this if you want to make this event as featured, this will make next "
+"future event as featured , which you can modify anytime from date wise "
+"tickets section. You need to uncheck this box if using date wise ticket area "
+"for featured event."
+msgstr ""
+
+#: admin/meta_fields.php:119
+msgid "Specific venue"
+msgstr ""
+
+#: admin/meta_fields.php:120
+msgid ""
+"Insert specific venue here to show on detail page. This field is useful "
+"while using venue filter for city and want to add event with in same city "
+"but with different location."
+msgstr ""
+
+#: admin/meta_fields.php:128
+msgid "Addition info for email"
+msgstr ""
+
+#: admin/meta_fields.php:129
+msgid ""
+"Enter the addition info to show in email. Use {event_additional_info} "
+"shortcode in the email template fields."
+msgstr ""
+
+#: admin/meta_fields.php:137
+msgid "Addition info"
+msgstr ""
+
+#: admin/meta_fields.php:138
+msgid ""
+"Enter the addition infor for event, this will show in meta section of event "
+"details page."
+msgstr ""
+
+#: admin/meta_fields.php:146
+msgid "Event Frequency Type"
+msgstr ""
+
+#: admin/meta_fields.php:147
+msgid ""
+"If you want to repeat this event for a selected period then select the type "
+"of recurrence. Select Fixed date if you want the event to repeat every day "
+"or second day etc. or every week/month. Select weekday if you want to repeat "
+"the event on a weekday like sunday, monday etc."
+msgstr ""
+
+#: admin/meta_fields.php:151
+msgid "Fixed Date"
+msgstr ""
+
+#: admin/meta_fields.php:151
+msgid "Week Day"
+msgstr ""
+
+#: admin/meta_fields.php:154
+msgid "Weekly Repeat"
+msgstr ""
+
+#: admin/meta_fields.php:155
+msgid ""
+"Select which week of month you want to repeat this event or use as week span "
+"by checking below checkbox."
+msgstr ""
+
+#: admin/meta_fields.php:161 front/front_functions.php:1634
+msgid "First"
+msgstr ""
+
+#: admin/meta_fields.php:162
+msgid "Second"
+msgstr ""
+
+#: admin/meta_fields.php:163
+msgid "Third"
+msgstr ""
+
+#: admin/meta_fields.php:164
+msgid "Fourth"
+msgstr ""
+
+#: admin/meta_fields.php:165 front/front_functions.php:1642
+msgid "Last"
+msgstr ""
+
+#: admin/meta_fields.php:169
+msgid "Repeat Weekly"
+msgstr ""
+
+#: admin/meta_fields.php:170
+msgid "Check to enable week span."
+msgstr ""
+
+#: admin/meta_fields.php:176
+msgid "Event Week Day"
+msgstr ""
+
+#: admin/meta_fields.php:177
+msgid "Select which day of week you want this event to repeat."
+msgstr ""
+
+#: admin/meta_fields.php:183
+msgid "Sunday"
+msgstr ""
+
+#: admin/meta_fields.php:184
+msgid "Monday"
+msgstr ""
+
+#: admin/meta_fields.php:185
+msgid "Tuesday"
+msgstr ""
+
+#: admin/meta_fields.php:186
+msgid "Wednesday"
+msgstr ""
+
+#: admin/meta_fields.php:187
+msgid "Thursday"
+msgstr ""
+
+#: admin/meta_fields.php:188
+msgid "Friday"
+msgstr ""
+
+#: admin/meta_fields.php:189
+msgid "Saturday"
+msgstr ""
+
+#: admin/meta_fields.php:193
+msgid "Event Frequency"
+msgstr ""
+
+#: admin/meta_fields.php:194
+msgid "Select the event repeat frequency for a fixed day repeatation."
+msgstr ""
+
+#: admin/meta_fields.php:200
+msgid "Every Day"
+msgstr ""
+
+#: admin/meta_fields.php:201
+msgid "Every Second Day"
+msgstr ""
+
+#: admin/meta_fields.php:202
+msgid "Every Third Day"
+msgstr ""
+
+#: admin/meta_fields.php:203
+msgid "Every Fourth Day"
+msgstr ""
+
+#: admin/meta_fields.php:204
+msgid "Every Fifth Day"
+msgstr ""
+
+#: admin/meta_fields.php:205
+msgid "Every Sixth Day"
+msgstr ""
+
+#: admin/meta_fields.php:206
+msgid "Every Week"
+msgstr ""
+
+#: admin/meta_fields.php:207
+msgid "Every Month"
+msgstr ""
+
+#: admin/meta_fields.php:211
+msgid "Number of times to repeat event"
+msgstr ""
+
+#: admin/meta_fields.php:212
+msgid ""
+"Enter the number of times this recurring event should repeat. Take care of "
+"number you put here as more repeating times can slow down the loading speed "
+"of events on website."
+msgstr ""
+
+#: admin/meta_fields.php:220
+msgid "Exclude Dynamic Event Dates"
+msgstr ""
+
+#: admin/meta_fields.php:221
+msgid ""
+"Insert random dates here which you wish to exclude from this repeating event"
+msgstr ""
+
+#: admin/meta_fields.php:229
+msgid "Include Dynamic Event Dates"
+msgstr ""
+
+#: admin/meta_fields.php:230
+msgid ""
+"Insert random dates here which you wish to include for this repeating event"
+msgstr ""
+
+#: admin/meta_fields.php:238
+msgid "Custom Permalink"
+msgstr ""
+
+#: admin/meta_fields.php:239
+msgid "Insert URL here if you want the event to redirect some another link."
+msgstr ""
+
+#: admin/meta_fields.php:247
+msgid "Custom Permalink Target"
+msgstr ""
+
+#: admin/meta_fields.php:248
+msgid ""
+"Select custom Permalink taget. If you want to redierct users to custom URL "
+"in a new window/tab then select Blank. To open it on same page select Self."
+msgstr ""
+
+#: admin/meta_fields.php:252 admin/meta_fields.php:295
+msgid "Self"
+msgstr ""
+
+#: admin/meta_fields.php:252 admin/meta_fields.php:295
+msgid "Blank"
+msgstr ""
+
+#: admin/meta_fields.php:255
+msgid "Custom Permalink Button"
+msgstr ""
+
+#: admin/meta_fields.php:256
+msgid "Insert text here to add button to list and grid view for event URL."
+msgstr ""
+
+#: admin/meta_fields.php:264
+msgid "Enable Registration"
+msgstr ""
+
+#: admin/meta_fields.php:265
+msgid ""
+"Select Yes if you want to enable registration for this event. It can be paid "
+"or free. Paid tickets info can be set below."
+msgstr ""
+
+#: admin/meta_fields.php:272
+msgid "Registration Form"
+msgstr ""
+
+#: admin/meta_fields.php:273
+msgid ""
+"Insert shortcodes of registration form fields here if you would like to have "
+"different forms for each event, default form will work from settings field "
+"only. This area would not work for the Woocommerce payment system."
+msgstr ""
+
+#: admin/meta_fields.php:281
+msgid "Custom Registration Button"
+msgstr ""
+
+#: admin/meta_fields.php:282
+msgid ""
+"Insert URL here if you want the register button for event to redirect to "
+"some oher URl outside your website. Like if you want to redirect users to "
+"your event on Eventbrite website."
+msgstr ""
+
+#: admin/meta_fields.php:290
+msgid "Custom Registration URL Target"
+msgstr ""
+
+#: admin/meta_fields.php:291
+msgid ""
+"Select custom URL taget. If you want to redierct users to custom URL in a "
+"new window/tab then select Blank. To open it on same page select Self."
+msgstr ""
+
+#: admin/meta_fields.php:356 admin/meta_fields.php:377
+#: admin/settings_page.php:3827 admin/settings_page.php:3859
+#: front/eventer_rest_endpoints.php:664
+msgid "Organizer Phone"
+msgstr ""
+
+#: admin/meta_fields.php:358 admin/meta_fields.php:381
+msgid ""
+"Enter phone number of this organizer where event visitors can contact the "
+"organizer."
+msgstr ""
+
+#: admin/meta_fields.php:361 admin/meta_fields.php:386
+#: admin/settings_page.php:3828 admin/settings_page.php:3860
+#: front/eventer_rest_endpoints.php:665
+msgid "Organizer Email"
+msgstr ""
+
+#: admin/meta_fields.php:363 admin/meta_fields.php:390
+msgid ""
+"Enter email address of this organizer where event visitors can contact the "
+"organizer. This will also be used for the contact form available on the "
+"single event page. If you leave it blank then the contact form info will be "
+"sent to the website administrator email."
+msgstr ""
+
+#: admin/meta_fields.php:366 admin/meta_fields.php:395
+#: admin/settings_page.php:3829 admin/settings_page.php:3861
+#: front/eventer_rest_endpoints.php:666
+msgid "Organizer Website"
+msgstr ""
+
+#: admin/meta_fields.php:368 admin/meta_fields.php:399
+msgid ""
+"Enter website address of this organizer which event visitors can visit for "
+"organizer information. This will be visible on single event details page."
+msgstr ""
+
+#: admin/meta_fields.php:442
+msgid "Venue Image"
+msgstr ""
+
+#: admin/meta_fields.php:445
+msgid "Upload Image"
+msgstr ""
+
+#: admin/meta_fields.php:447
+msgid "Remove Image"
+msgstr ""
+
+#: admin/meta_fields.php:450
+msgid "Upload venue image."
+msgstr ""
+
+#: admin/meta_fields.php:479 admin/settings_page.php:3825
+#: admin/settings_page.php:3857 eventers/modal/modal-thanks.php:67
+#: eventers/modal/modal-tickets.php:49 front/eventer_actions.php:819
+msgid "Venue Location"
+msgstr ""
+
+#: admin/meta_fields.php:481 admin/meta_fields.php:499
+msgid "Start typing the address of this venue to get the results."
+msgstr ""
+
+#: admin/meta_fields.php:484 admin/meta_fields.php:504
+msgid "Venue Map Co-ordinates"
+msgstr ""
+
+#: admin/meta_fields.php:486 admin/meta_fields.php:508
+msgid ""
+"Enter Map coordinates here if address is not sufficient to generate Google "
+"Map."
+msgstr ""
+
+#: admin/meta_fields.php:495
+msgid "Venue Location Address"
+msgstr ""
+
+#: admin/meta_fields.php:537 admin/meta_fields.php:550
+msgid ""
+"Select a color for this event category. This will be used for design purpose "
+"in events list, grid and calendar."
+msgstr ""
+
+#: admin/meta_fields.php:570
+msgid "Additional Services"
+msgstr ""
+
+#: admin/meta_fields.php:596
+msgid "Enter Service"
+msgstr ""
+
+#: admin/meta_fields.php:637
+msgid "Remove Product"
+msgstr ""
+
+#: admin/meta_fields.php:651 admin/meta_fields.php:713
+#: admin/meta_fields.php:772
+msgid "Add a Service"
+msgstr ""
+
+#: admin/meta_fields.php:655 admin/meta_fields.php:717
+#: admin/meta_fields.php:776 admin/settings_page.php:3127
+#: admin/settings_page.php:3447 admin/settings_page.php:3450
+#: eventers/modal/modal-booking.php:40 eventers/modal/modal-contact.php:15
+#: front/front_functions.php:66
+msgid "Name"
+msgstr ""
+
+#: admin/meta_fields.php:657 admin/meta_fields.php:719
+#: admin/meta_fields.php:778
+msgid "Multiple choices?"
+msgstr ""
+
+#: admin/meta_fields.php:658 admin/meta_fields.php:720
+#: admin/meta_fields.php:779
+msgid "Mandatory?"
+msgstr ""
+
+#: admin/meta_fields.php:670 admin/meta_fields.php:731
+#: admin/meta_fields.php:790
+msgid "Service Variants"
+msgstr ""
+
+#: admin/meta_fields.php:674 admin/meta_fields.php:735
+#: admin/meta_fields.php:794
+msgid "Variant1 name"
+msgstr ""
+
+#: admin/meta_fields.php:675 admin/meta_fields.php:736
+#: admin/meta_fields.php:795
+msgid "Variant1 price"
+msgstr ""
+
+#: admin/meta_fields.php:676 admin/meta_fields.php:737
+#: admin/meta_fields.php:796
+msgid "Variant2 name"
+msgstr ""
+
+#: admin/meta_fields.php:677 admin/meta_fields.php:738
+#: admin/meta_fields.php:797
+msgid "Variant2 price"
+msgstr ""
+
+#: admin/meta_fields.php:686 admin/meta_fields.php:747
+#: admin/meta_fields.php:806
+msgid "Variant3 name"
+msgstr ""
+
+#: admin/meta_fields.php:687 admin/meta_fields.php:748
+#: admin/meta_fields.php:807
+msgid "Variant3 price"
+msgstr ""
+
+#: admin/meta_fields.php:688 admin/meta_fields.php:749
+#: admin/meta_fields.php:808
+msgid "Variant4 name"
+msgstr ""
+
+#: admin/meta_fields.php:689 admin/meta_fields.php:750
+#: admin/meta_fields.php:809
+msgid "Variant4 price"
+msgstr ""
+
+#: admin/meta_fields.php:826
+msgid "Add new service"
+msgstr ""
+
+#: admin/meta_fields.php:828
+msgid ""
+"To offer additional services to the ticket registrants you must have atleast "
+"one kind of ticket made available for this event."
+msgstr ""
+
+#: admin/meta_fields.php:830
+msgid ""
+"To use additional services with Woocommerce, you need to change woocommerce "
+"layout to plugin from eventer settings page."
+msgstr ""
+
+#: admin/meta_fields.php:919
+msgid "Time Slot"
+msgstr ""
+
+#: admin/meta_fields.php:933 admin/settings_page.php:3819
+#: admin/settings_page.php:3851 front/eventer_rest_endpoints.php:643
+msgid "Title"
+msgstr ""
+
+#: admin/meta_fields.php:937 admin/settings_page.php:3299
+#: admin/settings_page.php:3312
+msgid "Actions"
+msgstr ""
+
+#: admin/meta_fields.php:1051
+msgid "Add Slot"
+msgstr ""
+
+#: admin/meta_fields.php:1054
+msgid "Add time slot in between the set start and end date of the event."
+msgstr ""
+
+#: admin/meta_fields.php:1055
+msgid ""
+"This section will not work if event is not starting and ending on a same "
+"date."
+msgstr ""
+
+#: admin/meta_fields.php:1156 admin/meta_fields.php:1252
+msgid "Restriction"
+msgstr ""
+
+#: admin/meta_fields.php:1183
+msgid ""
+"Modify ticket info for all dates of this event, this will reset the "
+"remaining tickets info on all dates."
+msgstr ""
+
+#: admin/meta_fields.php:1184
+msgid ""
+"Set tickets optional, so that user can select only single ticket among of "
+"all."
+msgstr ""
+
+#: admin/meta_fields.php:1191
+msgid ""
+"Restriction will allow only one time registration(Any number of tickets at a "
+"time) to users for that respective ticket."
+msgstr ""
+
+#: admin/meta_fields.php:1283
+msgid "Total remaining."
+msgstr ""
+
+#: admin/settings_page.php:170 front/eventer_actions.php:582
+#: front/shortcodes.php:573
+msgid "Settings"
+msgstr ""
+
+#: admin/settings_page.php:177 admin/settings_page.php:178
+#: admin/settings_page.php:277 admin/settings_page.php:3059
+#: admin/settings_page.php:3179 front/shortcodes.php:833
+#: front/shortcodes.php:835
+msgid "Bookings"
+msgstr ""
+
+#: admin/settings_page.php:246
+msgid "Event Options"
+msgstr ""
+
+#: admin/settings_page.php:265
+msgid "General"
+msgstr ""
+
+#: admin/settings_page.php:269
+msgid "Payment"
+msgstr ""
+
+#: admin/settings_page.php:271
+msgid "Permalinks"
+msgstr ""
+
+#: admin/settings_page.php:273
+msgid "Templates"
+msgstr ""
+
+#: admin/settings_page.php:275
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/settings_page.php:279 admin/settings_page.php:3452
+#: admin/settings_page.php:3601
+msgid "Check-in"
+msgstr ""
+
+#: admin/settings_page.php:281 admin/settings_page.php:3633
+msgid "Import Events"
+msgstr ""
+
+#: admin/settings_page.php:298
+msgid "Common Settings"
+msgstr ""
+
+#: admin/settings_page.php:299
+msgid "Coupons"
+msgstr ""
+
+#: admin/settings_page.php:300
+msgid "Single Event"
+msgstr ""
+
+#: admin/settings_page.php:301
+msgid "Email Templates"
+msgstr ""
+
+#: admin/settings_page.php:302
+msgid "Date & Time"
+msgstr ""
+
+#: admin/settings_page.php:303
+msgid "Calendar"
+msgstr ""
+
+#: admin/settings_page.php:304
+msgid "API"
+msgstr ""
+
+#: admin/settings_page.php:305 admin/settings_page.php:1705
+msgid "Form Fields"
+msgstr ""
+
+#: admin/settings_page.php:306
+msgid "Woocommerce"
+msgstr ""
+
+#: admin/settings_page.php:317
+msgid "Android App API Key"
+msgstr ""
+
+#: admin/settings_page.php:326
+msgid "Default color for events"
+msgstr ""
+
+#: admin/settings_page.php:333
+msgid ""
+"Select your desired color to be used for the highlighted parts of the full "
+"events plugin."
+msgstr ""
+
+#: admin/settings_page.php:340
+msgid "Enable event categories"
+msgstr ""
+
+#: admin/settings_page.php:349
+msgid "Enable event tags"
+msgstr ""
+
+#: admin/settings_page.php:358
+msgid "Enable event venue"
+msgstr ""
+
+#: admin/settings_page.php:367
+msgid "Enable event organizer"
+msgstr ""
+
+#: admin/settings_page.php:376
+msgid "Shortcode preview page"
+msgstr ""
+
+#: admin/settings_page.php:382
+msgid "Allow to remove shortcode preview page from pages."
+msgstr ""
+
+#: admin/settings_page.php:387
+msgid "Taxonomy operator"
+msgstr ""
+
+#: admin/settings_page.php:390
+msgid "or"
+msgstr ""
+
+#: admin/settings_page.php:391
+msgid "and"
+msgstr ""
+
+#: admin/settings_page.php:393
+msgid ""
+"Set operator for taxonomy filters. Ex: we have an event that does exist in "
+"category 1 and category 2, and we search for both of the categories then it "
+"is currently showing only the events that does exist in both of those "
+"categories, but now you can select the operator for search."
+msgstr ""
+
+#: admin/settings_page.php:398
+msgid "Disable carousel scripts"
+msgstr ""
+
+#: admin/settings_page.php:404
+msgid ""
+"If you are having issue related to design while using plugin, please try "
+"this field."
+msgstr ""
+
+#: admin/settings_page.php:409
+msgid "Enable Event Archive"
+msgstr ""
+
+#: admin/settings_page.php:413 admin/settings_page.php:594
+#: admin/settings_page.php:619 admin/settings_page.php:642
+#: admin/settings_page.php:661 admin/settings_page.php:680
+#: admin/settings_page.php:1030 admin/settings_page.php:1252
+#: admin/settings_page.php:1304 admin/settings_page.php:1370
+#: admin/settings_page.php:1437 front/shortcodes.php:966
+msgid "Enable"
+msgstr ""
+
+#: admin/settings_page.php:414
+msgid "Enable with custom template"
+msgstr ""
+
+#: admin/settings_page.php:416 admin/settings_page.php:595
+#: admin/settings_page.php:620 admin/settings_page.php:643
+#: admin/settings_page.php:662 admin/settings_page.php:681
+#: admin/settings_page.php:774 admin/settings_page.php:1033
+#: admin/settings_page.php:1255 admin/settings_page.php:1307
+#: admin/settings_page.php:1373 admin/settings_page.php:1440
+#: front/shortcodes.php:966
+msgid "Disable"
+msgstr ""
+
+#: admin/settings_page.php:417
+msgid "Enter URL for custom template"
+msgstr ""
+
+#: admin/settings_page.php:418
+msgid "Enable archive page for event."
+msgstr ""
+
+#: admin/settings_page.php:423
+msgid "Show Passed Badge"
+msgstr ""
+
+#: admin/settings_page.php:428
+msgid "Show passed badge to event that are passed now."
+msgstr ""
+
+#: admin/settings_page.php:433
+msgid "Show single Occurrence of future event"
+msgstr ""
+
+#: admin/settings_page.php:438
+msgid ""
+"This is for the recurring events, setting it Yes will always show a single "
+"event in your list of events or on calendar instead of multiple instances of "
+"repeated events."
+msgstr ""
+
+#: admin/settings_page.php:443
+msgid "Show recurring icon"
+msgstr ""
+
+#: admin/settings_page.php:448
+msgid ""
+"Select Yes to show a repeat icon with the name of your events in list, grid "
+"view."
+msgstr ""
+
+#: admin/settings_page.php:453
+msgid "Save event timezone"
+msgstr ""
+
+#: admin/settings_page.php:456
+msgid "User/WP Timezone"
+msgstr ""
+
+#: admin/settings_page.php:457
+msgid "Calendar Timezone"
+msgstr ""
+
+#: admin/settings_page.php:458
+msgid ""
+"These options are for the saving event to your calendar like Google "
+"Calendar. With User/WP Timezone, the event will be saved in the Google "
+"Calendar in the timezone it is set in your website at WordPress general "
+"settings. With Calendar Timezone, event will be saved in the local timezone "
+"of your calendar like setting in your Google Calendar."
+msgstr ""
+
+#: admin/settings_page.php:470
+msgid "Links"
+msgstr ""
+
+#: admin/settings_page.php:474 eventers/sections/event-metas.php:85
+msgid "Print"
+msgstr ""
+
+#: admin/settings_page.php:477 eventers/sections/event-metas.php:89
+msgid "Contact"
+msgstr ""
+
+#: admin/settings_page.php:479
+msgid "Get Direction"
+msgstr ""
+
+#: admin/settings_page.php:482 eventers/sections/event-metas.php:100
+msgid "Future Events"
+msgstr ""
+
+#: admin/settings_page.php:484
+msgid "Check to enable links on details page."
+msgstr ""
+
+#: admin/settings_page.php:489
+msgid "Booking Calendar"
+msgstr ""
+
+#: admin/settings_page.php:494
+msgid "Enable booking calendar on details page."
+msgstr ""
+
+#: admin/settings_page.php:499
+msgid "Organizer Link"
+msgstr ""
+
+#: admin/settings_page.php:504
+msgid "Open organizer website link in new tab?"
+msgstr ""
+
+#: admin/settings_page.php:509
+msgid "Registrants Fields"
+msgstr ""
+
+#: admin/settings_page.php:514
+msgid "Enable individual registrants fields for booking."
+msgstr ""
+
+#: admin/settings_page.php:519
+msgid "Mandatory Registrants"
+msgstr ""
+
+#: admin/settings_page.php:524
+msgid "Make registrants field mandatory while booking for ticket."
+msgstr ""
+
+#: admin/settings_page.php:529
+msgid "Coupon Field"
+msgstr ""
+
+#: admin/settings_page.php:534
+msgid "Show coupon field while payment."
+msgstr ""
+
+#: admin/settings_page.php:539
+msgid "Show social sharing buttons"
+msgstr ""
+
+#: admin/settings_page.php:544
+msgid "Select Yes to show social sharing options on the single event page."
+msgstr ""
+
+#: admin/settings_page.php:549
+msgid "Show save event options"
+msgstr ""
+
+#: admin/settings_page.php:554
+msgid ""
+"Select Yes to show several options on single event page to save event to "
+"Google Calendar, iCal and more."
+msgstr ""
+
+#: admin/settings_page.php:559
+msgid "Event image size"
+msgstr ""
+
+#: admin/settings_page.php:563
+msgid "Enter image size for event details page."
+msgstr ""
+
+#: admin/settings_page.php:568
+msgid "Maximum Tickets"
+msgstr ""
+
+#: admin/settings_page.php:572
+msgid ""
+"Enter number of tickets to set as maximum for single registration, Ex: 10."
+msgstr ""
+
+#: admin/settings_page.php:577
+msgid "Minimum Default Ticket"
+msgstr ""
+
+#: admin/settings_page.php:581
+msgid ""
+"Enter minimum number of tickets to set as default. It will auto select the "
+"quantity while registering for event."
+msgstr ""
+
+#: admin/settings_page.php:591
+msgid "Event payment confirmation email"
+msgstr ""
+
+#: admin/settings_page.php:599
+msgid ""
+"Enter content(Text/HTML) for the email which is sent when a user register "
+"for an event and completes the payment. There are several shortcodes "
+"available for you to use to send dynamic data in the email. List of "
+"shortcodes is below:"
+msgstr ""
+
+#: admin/settings_page.php:601 admin/settings_page.php:626
+#: admin/settings_page.php:687 front/front_functions.php:1791
+msgid "Registrant ID"
+msgstr ""
+
+#: admin/settings_page.php:602 admin/settings_page.php:627
+#: admin/settings_page.php:688 front/front_functions.php:1792
+msgid "Registrant Email"
+msgstr ""
+
+#: admin/settings_page.php:603 admin/settings_page.php:628
+#: admin/settings_page.php:689
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/settings_page.php:604 admin/settings_page.php:629
+#: admin/settings_page.php:690
+msgid "Payment Status"
+msgstr ""
+
+#: admin/settings_page.php:605 admin/settings_page.php:630
+#: admin/settings_page.php:691 front/front_functions.php:1793
+msgid "Amount Paid"
+msgstr ""
+
+#: admin/settings_page.php:607 admin/settings_page.php:632
+#: admin/settings_page.php:693
+msgid "Tickets Info"
+msgstr ""
+
+#: admin/settings_page.php:608 admin/settings_page.php:633
+#: admin/settings_page.php:694
+msgid "Registrant personal details"
+msgstr ""
+
+#: admin/settings_page.php:609 admin/settings_page.php:610
+#: admin/settings_page.php:611
+msgid "YOUR CUSTOM CONTENT OR ATTRIBUTES"
+msgstr ""
+
+#: admin/settings_page.php:609
+msgid "Content sent when the ticket for event is free"
+msgstr ""
+
+#: admin/settings_page.php:610
+msgid ""
+"Content sent when the user opt for offline payment option for registration"
+msgstr ""
+
+#: admin/settings_page.php:611
+msgid "Content sent when the user register for a ticket that has some price"
+msgstr ""
+
+#: admin/settings_page.php:617
+msgid "Pre payment email for organizers"
+msgstr ""
+
+#: admin/settings_page.php:624
+msgid ""
+"Enter content(Text/HTML) for the email which is sent to event organiser "
+"email when a user register for an event but not yet completed the payment. "
+"There are several shortcodes available for you to use to send dynamic data "
+"in the email. List of shortcodes is below:"
+msgstr ""
+
+#: admin/settings_page.php:634
+msgid "Time slot of event"
+msgstr ""
+
+#: admin/settings_page.php:640
+msgid "Add new Event email content"
+msgstr ""
+
+#: admin/settings_page.php:647
+msgid ""
+"Enter content(Text/HTML) for the email which is sent to event organiser "
+"email when a user add new event through front end."
+msgstr ""
+
+#: admin/settings_page.php:649 admin/settings_page.php:668
+msgid "Event manager email address"
+msgstr ""
+
+#: admin/settings_page.php:650 admin/settings_page.php:669
+msgid "Event maanger name"
+msgstr ""
+
+#: admin/settings_page.php:651 admin/settings_page.php:670
+msgid "Published event URL"
+msgstr ""
+
+#: admin/settings_page.php:652 admin/settings_page.php:671
+msgid "Event title"
+msgstr ""
+
+#: admin/settings_page.php:653 admin/settings_page.php:672
+#: admin/settings_page.php:2087 admin/settings_page.php:2455
+msgid "Event status"
+msgstr ""
+
+#: admin/settings_page.php:659
+msgid "Event published"
+msgstr ""
+
+#: admin/settings_page.php:666
+msgid ""
+"Enter content(Text/HTML) for the email which is sent to event organiser "
+"email when a event status changed to publish."
+msgstr ""
+
+#: admin/settings_page.php:678
+msgid "Event ticket email with attachment"
+msgstr ""
+
+#: admin/settings_page.php:685
+msgid ""
+"Enter content(Text/HTML) for the email which is sent to registrants with "
+"tickets as attachment."
+msgstr ""
+
+#: admin/settings_page.php:704
+msgid "Time format"
+msgstr ""
+
+#: admin/settings_page.php:706
+msgid "Start time format"
+msgstr ""
+
+#: admin/settings_page.php:712
+msgid "Start-End time separator"
+msgstr ""
+
+#: admin/settings_page.php:717
+msgid "End time format"
+msgstr ""
+
+#: admin/settings_page.php:724
+msgid "Date Format"
+msgstr ""
+
+#: admin/settings_page.php:728
+msgid "You can follow php date manual to set time and date format for event."
+msgstr ""
+
+#: admin/settings_page.php:733
+msgid "Date Format Big"
+msgstr ""
+
+#: admin/settings_page.php:737
+msgid ""
+"Set date format for multi day event, that has different date in start and "
+"end date field."
+msgstr ""
+
+#: admin/settings_page.php:742
+msgid "Time format for datepicker"
+msgstr ""
+
+#: admin/settings_page.php:746
+msgid "12 Hour"
+msgstr ""
+
+#: admin/settings_page.php:749
+msgid "24 Hour"
+msgstr ""
+
+#: admin/settings_page.php:751
+msgid "Set time format for the date picker used in back end and front end."
+msgstr ""
+
+#: admin/settings_page.php:762
+msgid "Coupon Name"
+msgstr ""
+
+#: admin/settings_page.php:765
+msgid "Coupon Code"
+msgstr ""
+
+#: admin/settings_page.php:768
+msgid "Discounted Amount"
+msgstr ""
+
+#: admin/settings_page.php:771
+msgid "Valid Till"
+msgstr ""
+
+#: admin/settings_page.php:783
+msgid "Enter name"
+msgstr ""
+
+#: admin/settings_page.php:789
+msgid "Enter amount or percent"
+msgstr ""
+
+#: admin/settings_page.php:803
+msgid "Add Coupon"
+msgstr ""
+
+#: admin/settings_page.php:805
+msgid "You can add percentage sign after amount to use percent for coupons"
+msgstr ""
+
+#: admin/settings_page.php:806
+msgid ""
+"Coupon functionality is currently available with default payment options only"
+msgstr ""
+
+#: admin/settings_page.php:812
+msgid "Calendar view"
+msgstr ""
+
+#: admin/settings_page.php:818 admin/settings_page.php:2068
+#: admin/settings_page.php:2436
+msgid "Month View"
+msgstr ""
+
+#: admin/settings_page.php:819
+msgid "BasicWeek View"
+msgstr ""
+
+#: admin/settings_page.php:820
+msgid "BasicDay View"
+msgstr ""
+
+#: admin/settings_page.php:821
+msgid "AgendaWeek View"
+msgstr ""
+
+#: admin/settings_page.php:822
+msgid "AgendaDay View"
+msgstr ""
+
+#: admin/settings_page.php:823
+msgid "ListYear View"
+msgstr ""
+
+#: admin/settings_page.php:824
+msgid "ListMonth View"
+msgstr ""
+
+#: admin/settings_page.php:825
+msgid "ListWeek View"
+msgstr ""
+
+#: admin/settings_page.php:826
+msgid "ListDay View"
+msgstr ""
+
+#: admin/settings_page.php:834
+msgid "Select your preferred view style for the events calendar."
+msgstr ""
+
+#: admin/settings_page.php:839
+msgid "Calendar weeks"
+msgstr ""
+
+#: admin/settings_page.php:845
+msgid "Six weeks"
+msgstr ""
+
+#: admin/settings_page.php:846
+msgid "Current month weeks"
+msgstr ""
+
+#: admin/settings_page.php:854
+msgid "Select weeks for calendar."
+msgstr ""
+
+#: admin/settings_page.php:859
+msgid "Calendar header view"
+msgstr ""
+
+#: admin/settings_page.php:861
+msgid "Left"
+msgstr ""
+
+#: admin/settings_page.php:866
+msgid "Center"
+msgstr ""
+
+#: admin/settings_page.php:871
+msgid "Right"
+msgstr ""
+
+#: admin/settings_page.php:880
+msgid ""
+"Enter your content options for the calendar header. Options available are: "
+"title(text containing the current month/week/day), prev(button for moving "
+"the calendar back one month/week/day), next(button for moving the calendar "
+"forward one month/week/day), prevYear(button for moving the calendar back on "
+"year), nextYear(button for moving the calendar forward one year), "
+"today(button for moving the calendar to the current month/week/day)"
+msgstr ""
+
+#: admin/settings_page.php:885
+msgid "Limit of Events"
+msgstr ""
+
+#: admin/settings_page.php:889
+msgid "Limits the number of events displayed on a day on calendar."
+msgstr ""
+
+#: admin/settings_page.php:894
+msgid "Calendar RTL"
+msgstr ""
+
+#: admin/settings_page.php:899
+msgid ""
+"Check Yes if you need the calendar to follow Right to Left direction instead "
+"of default Left to Right direction."
+msgstr ""
+
+#: admin/settings_page.php:904
+msgid "Show End Time"
+msgstr ""
+
+#: admin/settings_page.php:909
+msgid "Check Yes if you need to show end time of event in calendar."
+msgstr ""
+
+#: admin/settings_page.php:919
+msgid "Google Maps API key"
+msgstr ""
+
+#: admin/settings_page.php:923
+msgid ""
+"Enter Google maps API key here for the address field in the venue create "
+"page to show you suggested addresses. "
+msgstr ""
+
+#: admin/settings_page.php:923
+msgid "How to get an API key for map"
+msgstr ""
+
+#: admin/settings_page.php:928
+msgid "Google Calendar API key"
+msgstr ""
+
+#: admin/settings_page.php:932
+msgid ""
+"Enter Google calendar API key here to link your Google Calendars with your "
+"website. "
+msgstr ""
+
+#: admin/settings_page.php:932
+msgid "How to get an API key for calendar"
+msgstr ""
+
+#: admin/settings_page.php:933
+msgid "Please make sure that the API should not have the referer restrictions"
+msgstr ""
+
+#: admin/settings_page.php:938
+msgid "Google Calendar ID"
+msgstr ""
+
+#: admin/settings_page.php:942
+msgid ""
+"Enter your Google Calendar ID here which you want to import in your website "
+"events.. "
+msgstr ""
+
+#: admin/settings_page.php:942
+msgid "How to get your calendar ID"
+msgstr ""
+
+#: admin/settings_page.php:951
+msgid "Ticket Booking Form"
+msgstr ""
+
+#: admin/settings_page.php:955
+msgid ""
+"Enter content(Text/HTML) for the ticket booking form available at the single "
+"event page. Fields can be created at Eventer => Settings => Shortcodes"
+msgstr ""
+
+#: admin/settings_page.php:960
+msgid "Contact Organizer Form"
+msgstr ""
+
+#: admin/settings_page.php:964
+msgid ""
+"Enter content(Text/HTML) for the form available on single event page to "
+"contact the event organizer. Fields can be created at Eventer => Settings => "
+"Shortcodes"
+msgstr ""
+
+#: admin/settings_page.php:973
+msgid "Enable woocommerce payment"
+msgstr ""
+
+#: admin/settings_page.php:982
+msgid "Woocommerce Payment Layout"
+msgstr ""
+
+#: admin/settings_page.php:985
+msgid "Plugin"
+msgstr ""
+
+#: admin/settings_page.php:986
+msgid "Cart"
+msgstr ""
+
+#: admin/settings_page.php:987
+msgid "Popup with Woocommerce Checkout"
+msgstr ""
+
+#: admin/settings_page.php:988
+msgid "Use layout of Woocommerce payment."
+msgstr ""
+
+#: admin/settings_page.php:993
+msgid "Thanks page redirect"
+msgstr ""
+
+#: admin/settings_page.php:998
+msgid "Redirect to single details page after order completed."
+msgstr ""
+
+#: admin/settings_page.php:1001
+msgid "Add order"
+msgstr ""
+
+#: admin/settings_page.php:1006
+msgid "Add order for booking record."
+msgstr ""
+
+#: admin/settings_page.php:1018
+msgid "Payment Settings"
+msgstr ""
+
+#: admin/settings_page.php:1026
+msgid "Autocomplete Orders"
+msgstr ""
+
+#: admin/settings_page.php:1035
+msgid "Autocomplete orders in any case."
+msgstr ""
+
+#: admin/settings_page.php:1040
+msgid "Currency"
+msgstr ""
+
+#: admin/settings_page.php:1046
+msgid "U.S. Dollar"
+msgstr ""
+
+#: admin/settings_page.php:1047
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: admin/settings_page.php:1049
+msgid "Afghan afghani"
+msgstr ""
+
+#: admin/settings_page.php:1050
+msgid "Albanian lek"
+msgstr ""
+
+#: admin/settings_page.php:1051
+msgid "Armenian dram"
+msgstr ""
+
+#: admin/settings_page.php:1052
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: admin/settings_page.php:1053
+msgid "Angolan kwanza"
+msgstr ""
+
+#: admin/settings_page.php:1054
+msgid "Argentine peso"
+msgstr ""
+
+#: admin/settings_page.php:1055
+msgid "Aruban florin"
+msgstr ""
+
+#: admin/settings_page.php:1056
+msgid "Australian Dollar"
+msgstr ""
+
+#: admin/settings_page.php:1057
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: admin/settings_page.php:1058
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: admin/settings_page.php:1059
+msgid "Barbadian dollar"
+msgstr ""
+
+#: admin/settings_page.php:1060
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: admin/settings_page.php:1061
+msgid "Bulgarian lev"
+msgstr ""
+
+#: admin/settings_page.php:1062
+msgid "Bahraini dinar"
+msgstr ""
+
+#: admin/settings_page.php:1063
+msgid "Burundian franc"
+msgstr ""
+
+#: admin/settings_page.php:1064
+msgid "Bermudian dollar"
+msgstr ""
+
+#: admin/settings_page.php:1065
+msgid "Brunei dollar"
+msgstr ""
+
+#: admin/settings_page.php:1066
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: admin/settings_page.php:1067
+msgid "Bahamian dollar"
+msgstr ""
+
+#: admin/settings_page.php:1068
+msgid "Bitcoin"
+msgstr ""
+
+#: admin/settings_page.php:1069
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: admin/settings_page.php:1070
+msgid "Botswana pula"
+msgstr ""
+
+#: admin/settings_page.php:1071 admin/settings_page.php:1072
+msgid "Belarusian ruble"
+msgstr ""
+
+#: admin/settings_page.php:1073
+msgid "Belize dollar"
+msgstr ""
+
+#: admin/settings_page.php:1074
+msgid "Congolese franc"
+msgstr ""
+
+#: admin/settings_page.php:1075
+msgid "Swiss franc"
+msgstr ""
+
+#: admin/settings_page.php:1076
+msgid "Canadian dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1077
+msgid "Chilean peso ($)"
+msgstr ""
+
+#: admin/settings_page.php:1078
+msgid "Chinese yuan (¥)"
+msgstr ""
+
+#: admin/settings_page.php:1079
+msgid "Colombian peso ($)"
+msgstr ""
+
+#: admin/settings_page.php:1080
+msgid "Costa Rican colón (₡)"
+msgstr ""
+
+#: admin/settings_page.php:1081
+msgid "Cuban convertible peso ($)"
+msgstr ""
+
+#: admin/settings_page.php:1082
+msgid "Cuban peso ($)"
+msgstr ""
+
+#: admin/settings_page.php:1083
+msgid "Cape Verdean escudo ($)"
+msgstr ""
+
+#: admin/settings_page.php:1084
+msgid "Czech koruna (Kč)"
+msgstr ""
+
+#: admin/settings_page.php:1085
+msgid "Djiboutian franc (Fr)"
+msgstr ""
+
+#: admin/settings_page.php:1086
+msgid "Danish krone (DKK)"
+msgstr ""
+
+#: admin/settings_page.php:1087
+msgid "Dominican peso (RD$)"
+msgstr ""
+
+#: admin/settings_page.php:1088
+msgid "Algerian dinar (د.ج)"
+msgstr ""
+
+#: admin/settings_page.php:1089
+msgid "Egyptian pound (EGP)"
+msgstr ""
+
+#: admin/settings_page.php:1090
+msgid "Eritrean nakfa (Nfk)"
+msgstr ""
+
+#: admin/settings_page.php:1091
+msgid "Ethiopian birr (Br)"
+msgstr ""
+
+#: admin/settings_page.php:1092
+msgid "Euro (€)"
+msgstr ""
+
+#: admin/settings_page.php:1093
+msgid "Fijian dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1094
+msgid "Falkland Islands pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1095
+msgid "Pound sterling (£)"
+msgstr ""
+
+#: admin/settings_page.php:1096
+msgid "Georgian lari (₾)"
+msgstr ""
+
+#: admin/settings_page.php:1097
+msgid "Guernsey pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1098
+msgid "Ghana cedi (₵)"
+msgstr ""
+
+#: admin/settings_page.php:1099
+msgid "Gibraltar pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1100
+msgid "Gambian dalasi (D)"
+msgstr ""
+
+#: admin/settings_page.php:1101
+msgid "Guinean franc (Fr)"
+msgstr ""
+
+#: admin/settings_page.php:1102
+msgid "Guatemalan quetzal (Q)"
+msgstr ""
+
+#: admin/settings_page.php:1103
+msgid "Guyanese dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1104
+msgid "Hong Kong dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1105
+msgid "Honduran lempira (L)"
+msgstr ""
+
+#: admin/settings_page.php:1106
+msgid "Croatian kuna (Kn)"
+msgstr ""
+
+#: admin/settings_page.php:1107
+msgid "Haitian gourde (G)"
+msgstr ""
+
+#: admin/settings_page.php:1108
+msgid "Hungarian forint (Ft)"
+msgstr ""
+
+#: admin/settings_page.php:1109
+msgid "Indonesian rupiah (Rp)"
+msgstr ""
+
+#: admin/settings_page.php:1110
+msgid "Israeli new shekel (₪)"
+msgstr ""
+
+#: admin/settings_page.php:1111
+msgid "Manx pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1112
+msgid "Indian rupee (₹)"
+msgstr ""
+
+#: admin/settings_page.php:1113
+msgid "Iraqi dinar (ع.د)"
+msgstr ""
+
+#: admin/settings_page.php:1114
+msgid "Iranian rial (﷼)"
+msgstr ""
+
+#: admin/settings_page.php:1115
+msgid "Iranian toman (تومان)"
+msgstr ""
+
+#: admin/settings_page.php:1116
+msgid "Icelandic króna (kr.)"
+msgstr ""
+
+#: admin/settings_page.php:1117
+msgid "Jersey pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1118
+msgid "Jamaican dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1119
+msgid "Jordanian dinar (د.ا)"
+msgstr ""
+
+#: admin/settings_page.php:1120
+msgid "Japanese yen (¥)"
+msgstr ""
+
+#: admin/settings_page.php:1121
+msgid "Kenyan shilling (KSh)"
+msgstr ""
+
+#: admin/settings_page.php:1122
+msgid "Kyrgyzstani som (сом)"
+msgstr ""
+
+#: admin/settings_page.php:1123
+msgid "Cambodian riel (៛)"
+msgstr ""
+
+#: admin/settings_page.php:1124
+msgid "Comorian franc (Fr)"
+msgstr ""
+
+#: admin/settings_page.php:1125
+msgid "North Korean won (₩)"
+msgstr ""
+
+#: admin/settings_page.php:1126
+msgid "South Korean won (₩)"
+msgstr ""
+
+#: admin/settings_page.php:1127
+msgid "Kuwaiti dinar (د.ك)"
+msgstr ""
+
+#: admin/settings_page.php:1128
+msgid "Cayman Islands dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1129
+msgid "Kazakhstani tenge (KZT)"
+msgstr ""
+
+#: admin/settings_page.php:1130
+msgid "Lao kip (₭)"
+msgstr ""
+
+#: admin/settings_page.php:1131
+msgid "Lebanese pound (ل.ل)"
+msgstr ""
+
+#: admin/settings_page.php:1132
+msgid "Sri Lankan rupee (රු)"
+msgstr ""
+
+#: admin/settings_page.php:1133
+msgid "Liberian dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1134
+msgid "Lesotho loti (L)"
+msgstr ""
+
+#: admin/settings_page.php:1135
+msgid "Libyan dinar (ل.د)"
+msgstr ""
+
+#: admin/settings_page.php:1136
+msgid "Moroccan dirham (د.م.)"
+msgstr ""
+
+#: admin/settings_page.php:1137
+msgid "Moldovan leu (MDL)"
+msgstr ""
+
+#: admin/settings_page.php:1138
+msgid "Malagasy ariary (Ar)"
+msgstr ""
+
+#: admin/settings_page.php:1139
+msgid "Macedonian denar (ден)"
+msgstr ""
+
+#: admin/settings_page.php:1140
+msgid "Burmese kyat (Ks)"
+msgstr ""
+
+#: admin/settings_page.php:1141
+msgid "Mongolian tögrög (₮)"
+msgstr ""
+
+#: admin/settings_page.php:1142
+msgid "Macanese pataca (P)"
+msgstr ""
+
+#: admin/settings_page.php:1143
+msgid "Mauritanian ouguiya (UM)"
+msgstr ""
+
+#: admin/settings_page.php:1144
+msgid "Mauritian rupee (₨)"
+msgstr ""
+
+#: admin/settings_page.php:1145
+msgid "Maldivian rufiyaa (.ރ)"
+msgstr ""
+
+#: admin/settings_page.php:1146
+msgid "Malawian kwacha (MK)"
+msgstr ""
+
+#: admin/settings_page.php:1147
+msgid "Mexican peso ($)"
+msgstr ""
+
+#: admin/settings_page.php:1148
+msgid "Malaysian ringgit (RM)"
+msgstr ""
+
+#: admin/settings_page.php:1149
+msgid "Mozambican metical (MT)"
+msgstr ""
+
+#: admin/settings_page.php:1150
+msgid "Namibian dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1151
+msgid "Nigerian naira (₦)"
+msgstr ""
+
+#: admin/settings_page.php:1152
+msgid "Nicaraguan córdoba (C$)"
+msgstr ""
+
+#: admin/settings_page.php:1153
+msgid "Norwegian krone (kr)"
+msgstr ""
+
+#: admin/settings_page.php:1154
+msgid "Nepalese rupee (₨)"
+msgstr ""
+
+#: admin/settings_page.php:1155
+msgid "New Zealand dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1156
+msgid "Omani rial (ر.ع.)"
+msgstr ""
+
+#: admin/settings_page.php:1157
+msgid "Panamanian balboa (B/.)"
+msgstr ""
+
+#: admin/settings_page.php:1158
+msgid "Peruvian nuevo sol (S/.)"
+msgstr ""
+
+#: admin/settings_page.php:1159
+msgid "Papua New Guinean kina (K)"
+msgstr ""
+
+#: admin/settings_page.php:1160
+msgid "Philippine peso (₱)"
+msgstr ""
+
+#: admin/settings_page.php:1161
+msgid "Pakistani rupee (₨)"
+msgstr ""
+
+#: admin/settings_page.php:1162
+msgid "Polish złoty (zł)"
+msgstr ""
+
+#: admin/settings_page.php:1163
+msgid "Transnistrian ruble (р.)"
+msgstr ""
+
+#: admin/settings_page.php:1164
+msgid "Paraguayan guaraní (₲)"
+msgstr ""
+
+#: admin/settings_page.php:1165
+msgid "Qatari riyal (ر.ق)"
+msgstr ""
+
+#: admin/settings_page.php:1166
+msgid "Romanian leu (lei)"
+msgstr ""
+
+#: admin/settings_page.php:1167
+msgid "Serbian dinar (дин.)"
+msgstr ""
+
+#: admin/settings_page.php:1168
+msgid "Russian ruble (₽)"
+msgstr ""
+
+#: admin/settings_page.php:1169
+msgid "Rwandan franc (Fr)"
+msgstr ""
+
+#: admin/settings_page.php:1170
+msgid "Saudi riyal (ر.س)"
+msgstr ""
+
+#: admin/settings_page.php:1171
+msgid "Solomon Islands dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1172
+msgid "Seychellois rupee (₨)"
+msgstr ""
+
+#: admin/settings_page.php:1173
+msgid "Sudanese pound (ج.س.)"
+msgstr ""
+
+#: admin/settings_page.php:1174
+msgid "Swedish krona (kr)"
+msgstr ""
+
+#: admin/settings_page.php:1175
+msgid "Singapore dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1176
+msgid "Saint Helena pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1177
+msgid "Sierra Leonean leone (Le)"
+msgstr ""
+
+#: admin/settings_page.php:1178
+msgid "Somali shilling (Sh)"
+msgstr ""
+
+#: admin/settings_page.php:1179
+msgid "Surinamese dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1180
+msgid "South Sudanese pound (£)"
+msgstr ""
+
+#: admin/settings_page.php:1181
+msgid "São Tomé and Príncipe dobra (Db)"
+msgstr ""
+
+#: admin/settings_page.php:1182
+msgid "Syrian pound (ل.س)"
+msgstr ""
+
+#: admin/settings_page.php:1183
+msgid "Swazi lilangeni (L)"
+msgstr ""
+
+#: admin/settings_page.php:1184
+msgid "Thai baht (฿)"
+msgstr ""
+
+#: admin/settings_page.php:1185
+msgid "Tajikistani somoni (ЅМ)"
+msgstr ""
+
+#: admin/settings_page.php:1186
+msgid "Turkmenistan manat (m)"
+msgstr ""
+
+#: admin/settings_page.php:1187
+msgid "Tunisian dinar (د.ت)"
+msgstr ""
+
+#: admin/settings_page.php:1188
+msgid "Tongan paʻanga (T$)"
+msgstr ""
+
+#: admin/settings_page.php:1189
+msgid "Turkish lira (₺)"
+msgstr ""
+
+#: admin/settings_page.php:1190
+msgid "Trinidad and Tobago dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1191
+msgid "New Taiwan dollar (NT$)"
+msgstr ""
+
+#: admin/settings_page.php:1192
+msgid "Tanzanian shilling (Sh)"
+msgstr ""
+
+#: admin/settings_page.php:1193
+msgid "Ukrainian hryvnia (₴)"
+msgstr ""
+
+#: admin/settings_page.php:1194
+msgid "Ugandan shilling (UGX)"
+msgstr ""
+
+#: admin/settings_page.php:1196
+msgid "Uruguayan peso ($)"
+msgstr ""
+
+#: admin/settings_page.php:1197
+msgid "Uzbekistani som (UZS)"
+msgstr ""
+
+#: admin/settings_page.php:1198
+msgid "Venezuelan bolívar (Bs F)"
+msgstr ""
+
+#: admin/settings_page.php:1199
+msgid "Vietnamese đồng (₫)"
+msgstr ""
+
+#: admin/settings_page.php:1200
+msgid "Vanuatu vatu (Vt)"
+msgstr ""
+
+#: admin/settings_page.php:1201
+msgid "Samoan tālā (T)"
+msgstr ""
+
+#: admin/settings_page.php:1202
+msgid "Central African CFA franc (CFA)"
+msgstr ""
+
+#: admin/settings_page.php:1203
+msgid "East Caribbean dollar ($)"
+msgstr ""
+
+#: admin/settings_page.php:1204
+msgid "West African CFA franc (CFA)"
+msgstr ""
+
+#: admin/settings_page.php:1205
+msgid "CFP franc (Fr)"
+msgstr ""
+
+#: admin/settings_page.php:1206
+msgid "Yemeni rial (﷼)"
+msgstr ""
+
+#: admin/settings_page.php:1207
+msgid "South African rand (R)"
+msgstr ""
+
+#: admin/settings_page.php:1208
+msgid "Zambian kwacha (ZK)"
+msgstr ""
+
+#: admin/settings_page.php:1216
+msgid "Select your preferred currency for payments through PayPal."
+msgstr ""
+
+#: admin/settings_page.php:1220
+msgid "Currency Position"
+msgstr ""
+
+#: admin/settings_page.php:1226
+msgid "10$"
+msgstr ""
+
+#: admin/settings_page.php:1227
+msgid "$10"
+msgstr ""
+
+#: admin/settings_page.php:1241
+msgid "Stripe Payment Settings"
+msgstr ""
+
+#: admin/settings_page.php:1248
+msgid "Stripe payment"
+msgstr ""
+
+#: admin/settings_page.php:1257
+msgid "Select Yes to enable Stripe payments option for event registration."
+msgstr ""
+
+#: admin/settings_page.php:1261 admin/settings_page.php:1313
+#: admin/settings_page.php:1379 admin/settings_page.php:1446
+msgid "Set as default"
+msgstr ""
+
+#: admin/settings_page.php:1270
+msgid "Select Yes to set Stripe as default payment option."
+msgstr ""
+
+#: admin/settings_page.php:1274
+msgid "Stripe Publishable key"
+msgstr ""
+
+#: admin/settings_page.php:1282
+msgid "Stripe Secret key"
+msgstr ""
+
+#: admin/settings_page.php:1292
+msgid "Event PayPal Settings"
+msgstr ""
+
+#: admin/settings_page.php:1300
+msgid "PayPal payment"
+msgstr ""
+
+#: admin/settings_page.php:1309
+msgid "Select Yes to enable PayPal payments option for event registration."
+msgstr ""
+
+#: admin/settings_page.php:1322
+msgid "Select Yes to set PayPal as default payment option."
+msgstr ""
+
+#: admin/settings_page.php:1326
+msgid "Paypal Mode"
+msgstr ""
+
+#: admin/settings_page.php:1330 admin/settings_page.php:1396
+msgid "Live"
+msgstr ""
+
+#: admin/settings_page.php:1333
+msgid "Sandbox"
+msgstr ""
+
+#: admin/settings_page.php:1335
+msgid ""
+"Choose mode of PayPal payments. Select Live when you are ready with your "
+"business PayPal email/account. For test payments choose Sandbox."
+msgstr ""
+
+#: admin/settings_page.php:1340
+msgid "Paypal Business Email"
+msgstr ""
+
+#: admin/settings_page.php:1344
+msgid ""
+"Enter your live PayPal business email for live payments or your PayPal "
+"sandbox email address for test payments."
+msgstr ""
+
+#: admin/settings_page.php:1348
+msgid "IPN URL"
+msgstr ""
+
+#: admin/settings_page.php:1351
+msgid ""
+"This URL is used to verify PayPal payments and to update details of "
+"registrants once they are verified."
+msgstr ""
+
+#: admin/settings_page.php:1358
+msgid "Event dotpay Settings"
+msgstr ""
+
+#: admin/settings_page.php:1366
+msgid "dotpay payment"
+msgstr ""
+
+#: admin/settings_page.php:1375
+msgid "Select Yes to enable dotpay payments option for event registration."
+msgstr ""
+
+#: admin/settings_page.php:1388
+msgid "Select Yes to set dotpay as default payment option."
+msgstr ""
+
+#: admin/settings_page.php:1392
+msgid "dotpay Mode"
+msgstr ""
+
+#: admin/settings_page.php:1399
+msgid "Test"
+msgstr ""
+
+#: admin/settings_page.php:1401
+msgid ""
+"Choose mode of dotpay payments. Select Live when you are ready with your "
+"business PayPal email/account. For test payments choose Test."
+msgstr ""
+
+#: admin/settings_page.php:1406
+msgid "dotpay Account ID"
+msgstr ""
+
+#: admin/settings_page.php:1410
+msgid "Enter your live dotpay business id to make payment in your account."
+msgstr ""
+
+#: admin/settings_page.php:1415
+msgid "dotpay Account PIN"
+msgstr ""
+
+#: admin/settings_page.php:1419
+msgid "Enter your live dotpay business PIN to make payment in your account."
+msgstr ""
+
+#: admin/settings_page.php:1426
+msgid "Event Offline Payment Settings"
+msgstr ""
+
+#: admin/settings_page.php:1433 front/front_functions.php:3299
+msgid "Offline payment"
+msgstr ""
+
+#: admin/settings_page.php:1442
+msgid "Select Yes to enable offline payments option for event registration."
+msgstr ""
+
+#: admin/settings_page.php:1455
+msgid "Select Yes to set Offline as default payment option."
+msgstr ""
+
+#: admin/settings_page.php:1459
+msgid "Offline payment info"
+msgstr ""
+
+#: admin/settings_page.php:1463
+msgid ""
+"Enter some information here which will be shown to users while making "
+"payments for the events. You can add your bank details where users can send "
+"offline payments."
+msgstr ""
+
+#: admin/settings_page.php:1473
+msgid "Event Permalink Settings"
+msgstr ""
+
+#: admin/settings_page.php:1481
+msgid "Event Posts"
+msgstr ""
+
+#: admin/settings_page.php:1485
+msgid "Use this field to change slug of event post type for front end."
+msgstr ""
+
+#: admin/settings_page.php:1490
+msgid "Event Category Permalink"
+msgstr ""
+
+#: admin/settings_page.php:1494
+msgid ""
+"Use this field to change slug of event categories taxonomy for front end."
+msgstr ""
+
+#: admin/settings_page.php:1500
+msgid "Event Tags Permalink"
+msgstr ""
+
+#: admin/settings_page.php:1504
+msgid "Use this field to change slug of event tags taxonomy for front end."
+msgstr ""
+
+#: admin/settings_page.php:1510
+msgid "Event Venue Permalink"
+msgstr ""
+
+#: admin/settings_page.php:1514
+msgid "Use this field to change slug of event venue taxonomy for front end."
+msgstr ""
+
+#: admin/settings_page.php:1520
+msgid "Event Organizer Permalink"
+msgstr ""
+
+#: admin/settings_page.php:1524
+msgid ""
+"Use this field to change slug of event organizer taxonomy for front end."
+msgstr ""
+
+#: admin/settings_page.php:1536
+msgid "Event Templates"
+msgstr ""
+
+#: admin/settings_page.php:1547
+msgid "Event Category View"
+msgstr ""
+
+#: admin/settings_page.php:1553 admin/settings_page.php:1577
+#: admin/settings_page.php:1601 admin/settings_page.php:1625
+#: admin/settings_page.php:1648 admin/settings_page.php:1671
+msgid "Compact with pagination"
+msgstr ""
+
+#: admin/settings_page.php:1554 admin/settings_page.php:1578
+#: admin/settings_page.php:1602 admin/settings_page.php:1626
+#: admin/settings_page.php:1649 admin/settings_page.php:1672
+msgid "Monthly view compact"
+msgstr ""
+
+#: admin/settings_page.php:1555 admin/settings_page.php:1579
+#: admin/settings_page.php:1603 admin/settings_page.php:1627
+#: admin/settings_page.php:1650 admin/settings_page.php:1673
+msgid "Minimal with pagination"
+msgstr ""
+
+#: admin/settings_page.php:1556 admin/settings_page.php:1580
+#: admin/settings_page.php:1604 admin/settings_page.php:1628
+#: admin/settings_page.php:1651 admin/settings_page.php:1674
+msgid "Monthly view minimal"
+msgstr ""
+
+#: admin/settings_page.php:1557 admin/settings_page.php:1581
+#: admin/settings_page.php:1605 admin/settings_page.php:1629
+#: admin/settings_page.php:1652 admin/settings_page.php:1675
+msgid "Grid"
+msgstr ""
+
+#: admin/settings_page.php:1565
+msgid "Choose design view for event category archive pages."
+msgstr ""
+
+#: admin/settings_page.php:1571
+msgid "Event Venues View"
+msgstr ""
+
+#: admin/settings_page.php:1589
+msgid "Choose design view for event venues archive pages."
+msgstr ""
+
+#: admin/settings_page.php:1595
+msgid "Event Organiser View"
+msgstr ""
+
+#: admin/settings_page.php:1613
+msgid "Choose design view for event organiser archive pages."
+msgstr ""
+
+#: admin/settings_page.php:1619
+msgid "Event Tags View"
+msgstr ""
+
+#: admin/settings_page.php:1637
+msgid "Choose design view for event tag archive pages."
+msgstr ""
+
+#: admin/settings_page.php:1642
+msgid "Event Archive View"
+msgstr ""
+
+#: admin/settings_page.php:1660
+msgid "Choose design view for event archive pages."
+msgstr ""
+
+#: admin/settings_page.php:1665
+msgid "Event Search View"
+msgstr ""
+
+#: admin/settings_page.php:1683
+msgid "Choose design view for event search results page."
+msgstr ""
+
+#: admin/settings_page.php:1695
+msgid "Save Changes"
+msgstr ""
+
+#: admin/settings_page.php:1700
+msgid "Counter"
+msgstr ""
+
+#: admin/settings_page.php:1701
+msgid "Event List"
+msgstr ""
+
+#: admin/settings_page.php:1702
+msgid "Event Grid"
+msgstr ""
+
+#: admin/settings_page.php:1703
+msgid "Event Slider"
+msgstr ""
+
+#: admin/settings_page.php:1704
+msgid "Event Calendar"
+msgstr ""
+
+#: admin/settings_page.php:1706
+msgid "Add event form"
+msgstr ""
+
+#: admin/settings_page.php:1707
+msgid "Dashboard"
+msgstr ""
+
+#: admin/settings_page.php:1711
+msgid "Event counter shortcode"
+msgstr ""
+
+#: admin/settings_page.php:1716 admin/settings_page.php:1878
+#: admin/settings_page.php:2265 admin/settings_page.php:2698
+msgid "Select Event"
+msgstr ""
+
+#: admin/settings_page.php:1727
+msgid "You can select a specific event to show at the upcoming event counter."
+msgstr ""
+
+#: admin/settings_page.php:1735
+msgid "Select event category"
+msgstr ""
+
+#: admin/settings_page.php:1746
+msgid ""
+"Select event categories from which events will be used in the upcoming event "
+"counter."
+msgstr ""
+
+#: admin/settings_page.php:1752
+msgid "Select event tags"
+msgstr ""
+
+#: admin/settings_page.php:1763
+msgid ""
+"Select event tags, from which events will be used in the upcoming event "
+"counter."
+msgstr ""
+
+#: admin/settings_page.php:1769
+msgid "Select event venue"
+msgstr ""
+
+#: admin/settings_page.php:1780
+msgid ""
+"Select event venues, from which events will be used in the upcoming event "
+"counter."
+msgstr ""
+
+#: admin/settings_page.php:1786
+msgid "Select event organizer"
+msgstr ""
+
+#: admin/settings_page.php:1797
+msgid ""
+"Select event organisers, from which events will be used in the upcoming "
+"event counter."
+msgstr ""
+
+#: admin/settings_page.php:1802
+msgid "Show Event venue"
+msgstr ""
+
+#: admin/settings_page.php:1821
+msgid "Event type"
+msgstr ""
+
+#: admin/settings_page.php:1840
+msgid "Show counter until"
+msgstr ""
+
+#: admin/settings_page.php:1859 admin/settings_page.php:2223
+#: admin/settings_page.php:2609 admin/settings_page.php:2802
+#: admin/settings_page.php:2927 admin/settings_page.php:3036
+#: admin/settings_page.php:3090 admin/settings_page.php:3166
+msgid "Generate & Copy Shortcode"
+msgstr ""
+
+#: admin/settings_page.php:1873
+msgid "Event list shortcode"
+msgstr ""
+
+#: admin/settings_page.php:1889
+msgid ""
+"You can select specific events to show in the list. You can use ctrl/command "
+"key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:1905 admin/settings_page.php:2292
+#: admin/settings_page.php:2725 admin/settings_page.php:2833
+msgid ""
+"Select event category, from which you want to show events specifically. You "
+"can use ctrl/command key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:1911 admin/settings_page.php:2126
+#: admin/settings_page.php:2298 admin/settings_page.php:2485
+#: admin/settings_page.php:2731 admin/settings_page.php:2839
+#: admin/settings_page.php:3833 admin/settings_page.php:3865
+#: front/eventer_rest_endpoints.php:577
+msgid "Event Tags"
+msgstr ""
+
+#: admin/settings_page.php:1922 admin/settings_page.php:2309
+#: admin/settings_page.php:2742 admin/settings_page.php:2850
+msgid ""
+"Select event tags, from which you want to show events specifically. You can "
+"use ctrl/command key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:1939 admin/settings_page.php:2326
+#: admin/settings_page.php:2759 admin/settings_page.php:2867
+msgid ""
+"Select event venues, from which you want to show events specifically. You "
+"can use ctrl/command key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:1945 eventers/list/list-detailed.php:30
+msgid "Organiser"
+msgstr ""
+
+#: admin/settings_page.php:1956 admin/settings_page.php:2343
+#: admin/settings_page.php:2776 admin/settings_page.php:2884
+msgid ""
+"Select event organisers, from which you want to show events specifically. "
+"You can use ctrl/command key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:1981 admin/settings_page.php:2368
+msgid "Featured Events"
+msgstr ""
+
+#: admin/settings_page.php:1995
+msgid "Select yes to show featured events at the top of list view."
+msgstr ""
+
+#: admin/settings_page.php:2000
+msgid "Show Details under list"
+msgstr ""
+
+#: admin/settings_page.php:2014
+msgid "Select yes to show event meta and ticket details under list view."
+msgstr ""
+
+#: admin/settings_page.php:2019 admin/settings_page.php:2387
+msgid "Filter Bar"
+msgstr ""
+
+#: admin/settings_page.php:2038 admin/settings_page.php:2406
+msgid "Event status view"
+msgstr ""
+
+#: admin/settings_page.php:2056
+msgid "Select status to show event in list view."
+msgstr ""
+
+#: admin/settings_page.php:2061 admin/settings_page.php:2429
+msgid "Event calendar view"
+msgstr ""
+
+#: admin/settings_page.php:2067 admin/settings_page.php:2435
+msgid "Year View"
+msgstr ""
+
+#: admin/settings_page.php:2069 admin/settings_page.php:2437
+msgid "Week View"
+msgstr ""
+
+#: admin/settings_page.php:2070 admin/settings_page.php:2438
+msgid "Day View"
+msgstr ""
+
+#: admin/settings_page.php:2082
+msgid "Select the calendar view tabs of the events to show in the list."
+msgstr ""
+
+#: admin/settings_page.php:2106
+msgid "Select the status of the events to show in the list."
+msgstr ""
+
+#: admin/settings_page.php:2111 admin/settings_page.php:2499
+msgid "Event Series"
+msgstr ""
+
+#: admin/settings_page.php:2114 admin/settings_page.php:2502
+msgid "Select the series of events, this could work with pagination only."
+msgstr ""
+
+#: admin/settings_page.php:2119 admin/settings_page.php:2478
+msgid "Event Taxonomy Filters"
+msgstr ""
+
+#: admin/settings_page.php:2140
+msgid "List style"
+msgstr ""
+
+#: admin/settings_page.php:2147
+msgid "Classic"
+msgstr ""
+
+#: admin/settings_page.php:2148
+msgid "Native"
+msgstr ""
+
+#: admin/settings_page.php:2149
+msgid "Detailed"
+msgstr ""
+
+#: admin/settings_page.php:2150 admin/settings_page.php:2251
+msgid "Modern"
+msgstr ""
+
+#: admin/settings_page.php:2165 admin/settings_page.php:2549
+msgid "Show Venue"
+msgstr ""
+
+#: admin/settings_page.php:2185
+msgid "Events per page"
+msgstr ""
+
+#: admin/settings_page.php:2199 admin/settings_page.php:2583
+#: admin/settings_page.php:2796
+msgid ""
+"Enter number of events to show per page when event month filter is shown."
+msgstr ""
+
+#: admin/settings_page.php:2204 admin/settings_page.php:2637
+msgid "Pagination"
+msgstr ""
+
+#: admin/settings_page.php:2237
+msgid "Event Grid Shortcode"
+msgstr ""
+
+#: admin/settings_page.php:2242 admin/settings_page.php:2678
+msgid "Event Layout"
+msgstr ""
+
+#: admin/settings_page.php:2248
+msgid "Clean"
+msgstr ""
+
+#: admin/settings_page.php:2249 eventers/grid/grid-plain.php:2
+#: front/eventer-shortcodes.php:20
+msgid "Featured"
+msgstr ""
+
+#: admin/settings_page.php:2250
+msgid "Featured Hidden"
+msgstr ""
+
+#: admin/settings_page.php:2252
+msgid "Product"
+msgstr ""
+
+#: admin/settings_page.php:2260
+msgid "Select the layout for grid view."
+msgstr ""
+
+#: admin/settings_page.php:2276
+msgid ""
+"You can select specific events to show in the grid. You can use ctrl/command "
+"key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:2363
+msgid ""
+"Select event type for the grid. You can choose All to show both WordPress "
+"and Google Calendar events in the grid or WP/Google to show selected events "
+"only."
+msgstr ""
+
+#: admin/settings_page.php:2382
+msgid "Select yes to show featured events at the top of grid view."
+msgstr ""
+
+#: admin/settings_page.php:2424
+msgid "Select status to show event in grid view."
+msgstr ""
+
+#: admin/settings_page.php:2450
+msgid ""
+"Select the calendar view tabs of the events to show in the grid, this will "
+"not work with the status of future or past."
+msgstr ""
+
+#: admin/settings_page.php:2474
+msgid "Select the status of the events to show in the grid."
+msgstr ""
+
+#: admin/settings_page.php:2507
+msgid "Event Grid Background"
+msgstr ""
+
+#: admin/settings_page.php:2528
+msgid "Event Column"
+msgstr ""
+
+#: admin/settings_page.php:2554
+msgid "Yes Address"
+msgstr ""
+
+#: admin/settings_page.php:2555
+msgid "Yes Name"
+msgstr ""
+
+#: admin/settings_page.php:2564
+msgid "Select Yes to show event venue address for every event in the grid."
+msgstr ""
+
+#: admin/settings_page.php:2569 admin/settings_page.php:2782
+msgid "Event Per Page"
+msgstr ""
+
+#: admin/settings_page.php:2588
+msgid "Event Pagination"
+msgstr ""
+
+#: admin/settings_page.php:2595
+msgid "Carousel"
+msgstr ""
+
+#: admin/settings_page.php:2608 admin/settings_page.php:2801
+msgid "Carousel Settings"
+msgstr ""
+
+#: admin/settings_page.php:2608 admin/settings_page.php:2664
+#: admin/settings_page.php:2801
+msgid "Add Carousel Settings"
+msgstr ""
+
+#: admin/settings_page.php:2622
+msgid "Autoplay"
+msgstr ""
+
+#: admin/settings_page.php:2631
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: admin/settings_page.php:2646
+msgid "Arrows"
+msgstr ""
+
+#: admin/settings_page.php:2655
+msgid "RTL"
+msgstr ""
+
+#: admin/settings_page.php:2673
+msgid "Event Slider Shortcode"
+msgstr ""
+
+#: admin/settings_page.php:2683
+msgid "Type1"
+msgstr ""
+
+#: admin/settings_page.php:2684
+msgid "Type2"
+msgstr ""
+
+#: admin/settings_page.php:2685
+msgid "Type3"
+msgstr ""
+
+#: admin/settings_page.php:2693
+msgid "Select the layout for slider view."
+msgstr ""
+
+#: admin/settings_page.php:2709
+msgid ""
+"You can select specific events to show in the slider. You can use ctrl/"
+"command key to select/deselect multiple values."
+msgstr ""
+
+#: admin/settings_page.php:2816
+msgid "Event Calendar Shortcode"
+msgstr ""
+
+#: admin/settings_page.php:2894
+msgid "Both"
+msgstr ""
+
+#: admin/settings_page.php:2941
+msgid "Form Fields Shortcode"
+msgstr ""
+
+#: admin/settings_page.php:2944
+msgid ""
+"These shortcodes are for your use in the event registration booking form and "
+"Contact event organizer form available on single event page."
+msgstr ""
+
+#: admin/settings_page.php:2948
+msgid "Select field yype"
+msgstr ""
+
+#: admin/settings_page.php:2951 front/eventer_rest_endpoints.php:567
+msgid "Text"
+msgstr ""
+
+#: admin/settings_page.php:2952 front/eventer_rest_endpoints.php:568
+msgid "Textarea"
+msgstr ""
+
+#: admin/settings_page.php:2953 front/eventer_rest_endpoints.php:569
+msgid "Select dropdown"
+msgstr ""
+
+#: admin/settings_page.php:2954 front/eventer_rest_endpoints.php:570
+msgid "Checkbox"
+msgstr ""
+
+#: admin/settings_page.php:2955 front/eventer_rest_endpoints.php:571
+msgid "Radio"
+msgstr ""
+
+#: admin/settings_page.php:2956 front/eventer_rest_endpoints.php:573
+msgid "Number"
+msgstr ""
+
+#: admin/settings_page.php:2963
+msgid "Select textarea rows"
+msgstr ""
+
+#: admin/settings_page.php:2972
+msgid ""
+"Select the rows for the text area field. This is used to define the height "
+"of the textarea field in the form."
+msgstr ""
+
+#: admin/settings_page.php:2977
+msgid "Mark field mandatory"
+msgstr ""
+
+#: admin/settings_page.php:2983
+msgid ""
+"Select Yes if you want the user to fill this field before submitting the "
+"form."
+msgstr ""
+
+#: admin/settings_page.php:2988
+msgid "Field classes"
+msgstr ""
+
+#: admin/settings_page.php:2991
+msgid ""
+"Enter any additional class name you wish to add to this field. Add multiple "
+"class names with space between them."
+msgstr ""
+
+#: admin/settings_page.php:2996 front/eventer_rest_endpoints.php:622
+msgid "Field ID"
+msgstr ""
+
+#: admin/settings_page.php:2999
+msgid ""
+"Enter a unqiue ID name for this field. ID name must not have any special "
+"character or space in between."
+msgstr ""
+
+#: admin/settings_page.php:3004
+msgid "Field values"
+msgstr ""
+
+#: admin/settings_page.php:3007
+msgid ""
+"This field can be used for select/radio/checkbox field types. Insert comma "
+"separated multiple values. Wrap value with curly braces to auto select a "
+"value, For example:- {abc},def,ghi,{jkl}, now abc & jkl will be auto "
+"selected values of the field."
+msgstr ""
+
+#: admin/settings_page.php:3012
+msgid "Field name"
+msgstr ""
+
+#: admin/settings_page.php:3015
+msgid "Provide a unique name for your field."
+msgstr ""
+
+#: admin/settings_page.php:3020 front/eventer_rest_endpoints.php:633
+msgid "Field Label"
+msgstr ""
+
+#: admin/settings_page.php:3023
+msgid "Enter label of the field."
+msgstr ""
+
+#: admin/settings_page.php:3028 front/eventer_rest_endpoints.php:674
+msgid "Field Meta Key"
+msgstr ""
+
+#: admin/settings_page.php:3031
+msgid "Enter meta key of custom field."
+msgstr ""
+
+#: admin/settings_page.php:3048
+msgid "Dashboard shortcode"
+msgstr ""
+
+#: admin/settings_page.php:3051
+msgid "Add shortcode for dashboard."
+msgstr ""
+
+#: admin/settings_page.php:3055
+msgid "Active Tab"
+msgstr ""
+
+#: admin/settings_page.php:3058 front/shortcodes.php:827
+#: front/shortcodes.php:829
+msgid "Submissions"
+msgstr ""
+
+#: admin/settings_page.php:3060 front/shortcodes.php:819
+#: front/shortcodes.php:821
+msgid "Add new event"
+msgstr ""
+
+#: admin/settings_page.php:3062
+msgid ""
+"Select section from the above list which will open by default on visiting "
+"the dashboard page."
+msgstr ""
+
+#: admin/settings_page.php:3067
+msgid "Add new event page"
+msgstr ""
+
+#: admin/settings_page.php:3085
+msgid ""
+"Select page from the list of pages(containing add new event form shortcode) "
+"to be used as page for Add new event page link in dashboard."
+msgstr ""
+
+#: admin/settings_page.php:3102
+msgid "Add event shortcode"
+msgstr ""
+
+#: admin/settings_page.php:3105
+msgid "Add shortcode to add new event through front end."
+msgstr ""
+
+#: admin/settings_page.php:3109
+msgid "Sections"
+msgstr ""
+
+#: admin/settings_page.php:3130
+msgid ""
+"Enter name for form, this will be shown while adding this form in dashboard."
+msgstr ""
+
+#: admin/settings_page.php:3135
+msgid "Slug"
+msgstr ""
+
+#: admin/settings_page.php:3138
+msgid "Enter slug for form, should be unique for each form."
+msgstr ""
+
+#: admin/settings_page.php:3143
+msgid "Default Fields"
+msgstr ""
+
+#: admin/settings_page.php:3149
+msgid "Start form with default fields."
+msgstr ""
+
+#: admin/settings_page.php:3154
+msgid "Default Status"
+msgstr ""
+
+#: admin/settings_page.php:3157
+msgid "Draft"
+msgstr ""
+
+#: admin/settings_page.php:3158 admin/settings_page.php:3249
+#: admin/settings_page.php:3526
+msgid "Pending"
+msgstr ""
+
+#: admin/settings_page.php:3159
+msgid "Publish"
+msgstr ""
+
+#: admin/settings_page.php:3161
+msgid "Set default status for event."
+msgstr ""
+
+#: admin/settings_page.php:3217
+msgid "&laquo;"
+msgstr ""
+
+#: admin/settings_page.php:3218
+msgid "&raquo;"
+msgstr ""
+
+#: admin/settings_page.php:3230
+msgid "Download csv"
+msgstr ""
+
+#: admin/settings_page.php:3231
+msgid "Delete selected"
+msgstr ""
+
+#: admin/settings_page.php:3243 admin/settings_page.php:3525
+msgid "Completed"
+msgstr ""
+
+#: admin/settings_page.php:3258
+msgid "Search here"
+msgstr ""
+
+#: admin/settings_page.php:3265
+msgid "Filter by event"
+msgstr ""
+
+#: admin/settings_page.php:3278 admin/settings_page.php:3588
+msgid "Select Date"
+msgstr ""
+
+#: admin/settings_page.php:3292 admin/settings_page.php:3305
+msgid "ID"
+msgstr ""
+
+#: admin/settings_page.php:3294 admin/settings_page.php:3307
+#: eventers/modal/modal-thanks.php:73 eventers/modal/modal-tickets.php:54
+#: front/eventer_rest_endpoints.php:578 front/shortcodes.php:946
+msgid "Date"
+msgstr ""
+
+#: admin/settings_page.php:3295 admin/settings_page.php:3308
+msgid "Transaction Id"
+msgstr ""
+
+#: admin/settings_page.php:3296 admin/settings_page.php:3309
+#: admin/settings_page.php:3820 admin/settings_page.php:3852
+msgid "Status"
+msgstr ""
+
+#: admin/settings_page.php:3297 admin/settings_page.php:3310
+msgid "Amount"
+msgstr ""
+
+#: admin/settings_page.php:3298 admin/settings_page.php:3311
+msgid "Mode"
+msgstr ""
+
+#: admin/settings_page.php:3446 front/eventer_rest_endpoints.php:590
+#: front/eventer_rest_endpoints.php:609 front/front_functions.php:3409
+msgid "Type"
+msgstr ""
+
+#: admin/settings_page.php:3448 front/front_functions.php:3422
+msgid "Quantity"
+msgstr ""
+
+#: admin/settings_page.php:3490
+msgid "More Info"
+msgstr ""
+
+#: admin/settings_page.php:3496
+msgid "View Order"
+msgstr ""
+
+#: admin/settings_page.php:3503
+msgid "Create Tickets"
+msgstr ""
+
+#: admin/settings_page.php:3508
+msgid "Send Tickets"
+msgstr ""
+
+#: admin/settings_page.php:3527
+msgid "Failed"
+msgstr ""
+
+#: admin/settings_page.php:3528
+msgid "Cancelled"
+msgstr ""
+
+#: admin/settings_page.php:3542
+msgid "There is no booking record available for your events as of now."
+msgstr ""
+
+#: admin/settings_page.php:3552
+msgid "Ticket check-in"
+msgstr ""
+
+#: admin/settings_page.php:3571 admin/settings_page.php:3575
+msgid "Select event"
+msgstr ""
+
+#: admin/settings_page.php:3594
+msgid "Scan here"
+msgstr ""
+
+#: admin/settings_page.php:3638
+msgid "Import CSV file for Events"
+msgstr ""
+
+#: admin/settings_page.php:3793
+msgid "CSV file processed successfully"
+msgstr ""
+
+#: admin/settings_page.php:3801
+msgid "Upload images with data?"
+msgstr ""
+
+#: admin/settings_page.php:3807
+msgid "CSV Values"
+msgstr ""
+
+#: admin/settings_page.php:3814
+msgid "CSV Label"
+msgstr ""
+
+#: admin/settings_page.php:3816
+msgid "Select meta field for this label"
+msgstr ""
+
+#: admin/settings_page.php:3821 admin/settings_page.php:3853
+#: front/eventer_rest_endpoints.php:644
+msgid "Content"
+msgstr ""
+
+#: admin/settings_page.php:3822 admin/settings_page.php:3854
+msgid "Event Start Date and Time"
+msgstr ""
+
+#: admin/settings_page.php:3823 admin/settings_page.php:3855
+msgid "Event End Date and Time"
+msgstr ""
+
+#: admin/settings_page.php:3824
+msgid "Venue Title"
+msgstr ""
+
+#: admin/settings_page.php:3826 admin/settings_page.php:3858
+msgid "Organizer Name"
+msgstr ""
+
+#: admin/settings_page.php:3831 admin/settings_page.php:3863
+msgid "Set Featured Image Later(Fast Import)"
+msgstr ""
+
+#: admin/settings_page.php:3834 admin/settings_page.php:3866
+msgid "All Events Date"
+msgstr ""
+
+#: admin/settings_page.php:3846
+msgid "CSV Labels"
+msgstr ""
+
+#: admin/settings_page.php:3848
+msgid "Select Field for this label"
+msgstr ""
+
+#: admin/settings_page.php:3878
+msgid "Upload CSV File"
+msgstr ""
+
+#: eventer.php:84
+msgid "Event manager"
+msgstr ""
+
+#: eventers/filters/filter-arrows.php:8
+msgid "Previous"
+msgstr ""
+
+#: eventers/filters/filter-arrows.php:14 front/shortcodes.php:76
+msgid "Next"
+msgstr ""
+
+#: eventers/filters/filter-calendar.php:13
+msgid "Date range selector"
+msgstr ""
+
+#: eventers/filters/filter-series.php:3 front/front_functions.php:3150
+msgid "Show events from "
+msgstr ""
+
+#: eventers/filters/filter-series.php:8 front/front_functions.php:3151
+msgid "to "
+msgstr ""
+
+#: eventers/filters/filter-terms.php:1 front/front_functions.php:3180
+msgid "Sort Events"
+msgstr ""
+
+#: eventers/filters/filter-terms.php:7
+msgid "By Event Category"
+msgstr ""
+
+#: eventers/filters/filter-terms.php:11
+msgid "By Event Organizer"
+msgstr ""
+
+#: eventers/filters/filter-terms.php:15
+msgid "By Event Venue"
+msgstr ""
+
+#: eventers/filters/filter-terms.php:19
+msgid "By Event Tags"
+msgstr ""
+
+#: eventers/grid/grid-clean.php:35 eventers/list/list-classic.php:37
+#: eventers/list/list-detailed.php:39
+msgid "Ticket Info"
+msgstr ""
+
+#: eventers/grid/grid-clean.php:43 eventers/grid/grid-hidden.php:53
+#: eventers/list/list-classic.php:45 eventers/list/list-detailed.php:47
+#: eventers/list/list-native.php:24 eventers/sections/event-tickets.php:67
+#: eventers/sections/event-wootickets.php:65 front/eventer-feed.php:121
+msgid "remaining"
+msgstr ""
+
+#: eventers/grid/grid-clean.php:43 eventers/grid/grid-hidden.php:53
+#: eventers/list/list-classic.php:45 eventers/list/list-detailed.php:47
+#: eventers/list/list-native.php:24
+msgid "All booked"
+msgstr ""
+
+#: eventers/grid/grid-hidden.php:47
+msgid "Tickets Information"
+msgstr ""
+
+#: eventers/grid/grid-modern.php:49
+msgid "Tickets Starting"
+msgstr ""
+
+#: eventers/grid/grid-products.php:36
+msgid "Tickets"
+msgstr ""
+
+#: eventers/grid/grid-products.php:36
+msgid "Starting from"
+msgstr ""
+
+#: eventers/grid/grid-products.php:46
+msgid "Book Now"
+msgstr ""
+
+#: eventers/list/list-classic.php:35 eventers/list/list-modern.php:16
+#: eventers/list/list-native.php:34
+msgid "Buy Tickets"
+msgstr ""
+
+#: eventers/list/list-native.php:33 eventers/sections/event-metas.php:94
+msgid "Get Directions"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:18 eventers/modal/modal-bookingajax.php:18
+#: eventers/modal/modal-woobooking.php:17
+#: eventers/sections/event-tickets.php:113 front/front_functions.php:41
+#: front/shortcodes.php:708
+msgid "Register"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:18 eventers/modal/modal-bookingajax.php:18
+msgid "Proceed to checkout"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:27 eventers/modal/modal-woobooking.php:26
+#: eventers/modal/modal-woobooking.php:68
+msgid "Book your tickets"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:39
+msgid "First name"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:43
+msgid "Your email"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:44
+msgid "email"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:50
+msgid "Register for website"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:52
+msgid "Choose tickets"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:65
+msgid "Back to details"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:67 eventers/modal/modal-woobooking.php:50
+#: eventers/modal/modal-woobooking.php:77
+msgid "Add Services"
+msgstr ""
+
+#: eventers/modal/modal-booking.php:92 eventers/modal/modal-woobooking.php:68
+#: eventers/modal/modal-woobooking.php:77
+#: eventers/modal/modal-woobooking.php:95
+msgid "Back"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:4 front/shortcodes.php:874
+msgid "Contact event manager"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:14 front/shortcodes.php:876
+msgid "Your name"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:16 front/shortcodes.php:878
+msgid "Your Email"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:18 front/shortcodes.php:880
+msgid "Your Phone"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:20 front/shortcodes.php:882
+msgid "Your message"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:21
+msgid "Message"
+msgstr ""
+
+#: eventers/modal/modal-contact.php:24 front/shortcodes.php:884
+msgid "Submit"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:73 eventers/modal/modal-tickets.php:54
+msgid "Time"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:81
+msgid "Order"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:92
+msgid "Organizer's other events"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:100
+msgid "Booked Tickets"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:110
+msgid "View ticket"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:111
+msgid "Tickets sent to"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:116
+msgid ""
+"An email with link to download ticket will be sent to you once we "
+"acknowledge successful payment."
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:126
+msgid "Thank"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:126
+msgid "you"
+msgstr ""
+
+#: eventers/modal/modal-thanks.php:126
+msgid "Kindly"
+msgstr ""
+
+#: eventers/modal/modal-tickets.php:33 front/eventer_actions.php:809
+msgid "Attendee"
+msgstr ""
+
+#: eventers/modal/modal-tickets.php:38 front/eventer_actions.php:814
+msgid "Ticket"
+msgstr ""
+
+#: eventers/modal/modal-tickets.php:59
+msgid "PRINT"
+msgstr ""
+
+#: eventers/modal/modal-woobooking.php:17 front/front_functions.php:41
+msgid "Add Tickets"
+msgstr ""
+
+#: eventers/modal/modal-woobooking.php:50
+msgid "Add services"
+msgstr ""
+
+#: eventers/modal/modal-woobooking.php:52
+#: eventers/modal/modal-woobooking.php:70
+#: eventers/modal/modal-woobooking.php:95
+msgid "Order Summary"
+msgstr ""
+
+#: eventers/modal/modal-woobooking.php:81
+#: eventers/modal/modal-woobooking.php:84
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: eventers/modal/modal-woobooking.php:81
+#: eventers/modal/modal-woobooking.php:84
+msgid "Checkout"
+msgstr ""
+
+#: eventers/preview.php:6
+msgid ""
+"This page is only used to show how your shortcode look like, some of the "
+"feature might not work on this page. You should use this shortcode to page "
+"where you would like to show the events."
+msgstr ""
+
+#: eventers/preview.php:9
+msgid ""
+"Sorry, nothing to show here. It seems you are accessing page directly "
+"instead of calling from shortcodes settings of Eventer plugin."
+msgstr ""
+
+#: eventers/sections/event-metas.php:16
+msgid "Event details"
+msgstr ""
+
+#: eventers/sections/event-metas.php:54
+msgid " (Everyday)"
+msgstr ""
+
+#: eventers/sections/event-save.php:9
+msgid "Save event"
+msgstr ""
+
+#: eventers/sections/event-save.php:11
+msgid "Save to iCalendar"
+msgstr ""
+
+#: eventers/sections/event-save.php:12
+msgid "Save to Google calendar"
+msgstr ""
+
+#: eventers/sections/event-save.php:13
+msgid "Save to Outlook"
+msgstr ""
+
+#: eventers/sections/event-save.php:14
+msgid "Save to Outlook online"
+msgstr ""
+
+#: eventers/sections/event-save.php:15
+msgid "Save to Yahoo calendar"
+msgstr ""
+
+#: eventers/sections/event-social.php:7
+msgid "Share event"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:29
+#: eventers/sections/event-wootickets.php:30 front/eventer-feed.php:149
+msgid "Tickets details"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:42
+msgid "Ticket missing"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:67
+#: eventers/sections/event-wootickets.php:65 front/eventer-feed.php:121
+msgid "All Booked"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:68
+msgid "Ticket selling opens on"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:75
+msgid " days left for booking"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:77
+msgid "Booking closed"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:91 front/front_functions.php:3350
+msgid "It seems the ticket you added for this event is no more exists."
+msgstr ""
+
+#: eventers/sections/event-tickets.php:101
+#: eventers/sections/event-tickets.php:107
+msgid "Book tickets"
+msgstr ""
+
+#: eventers/sections/event-tickets.php:105
+msgid "Sorry, Event Passed"
+msgstr ""
+
+#: eventers/sections/event-wootickets.php:70
+msgid "Add to cart"
+msgstr ""
+
+#: eventers/sections/event-wootickets.php:71
+msgid "Added to cart"
+msgstr ""
+
+#: eventers/sections/event-wootickets.php:92
+msgid "Sorry, Event passed"
+msgstr ""
+
+#: eventers/sections/event-wootickets.php:100
+msgid "View cart"
+msgstr ""
+
+#: eventers/slider/slider-type1.php:38
+msgid "Tickets starting from"
+msgstr ""
+
+#: eventers/slider/slider-type2.php:16
+msgid "Organized by"
+msgstr ""
+
+#: eventers/slider/slider-type2.php:21
+msgid "Read More"
+msgstr ""
+
+#: front/eventer-shortcodes.php:27 front/eventer_actions.php:15
+#: front/eventer_actions.php:51 front/eventer_rest_endpoints.php:819
+#: front/eventer_rest_endpoints.php:858 front/eventer_rest_endpoints.php:887
+msgid "Passed"
+msgstr ""
+
+#: front/eventer-shortcodes.php:27 front/eventer_rest_endpoints.php:819
+#: front/eventer_rest_endpoints.php:858 front/eventer_rest_endpoints.php:887
+#: front/front_functions.php:777
+msgid "Upcoming"
+msgstr ""
+
+#: front/eventer-shortcodes.php:304 front/eventer-shortcodes.php:488
+msgid "No events to display."
+msgstr ""
+
+#: front/eventer_actions.php:343
+msgid "Contact Manager"
+msgstr ""
+
+#: front/eventer_actions.php:391
+msgid "Here is your order details"
+msgstr ""
+
+#: front/eventer_actions.php:399
+msgid "Welcome to"
+msgstr ""
+
+#: front/eventer_actions.php:417
+msgid ""
+"Please see order details below and make sure that every details are correct "
+"as you filled while registering for event."
+msgstr ""
+
+#: front/eventer_actions.php:472
+msgid "Thanks for registering event at our website"
+msgstr ""
+
+#: front/eventer_actions.php:472
+msgid "we will be very happy to see you in event."
+msgstr ""
+
+#: front/eventer_actions.php:566 front/shortcodes.php:565
+msgid "Disable row"
+msgstr ""
+
+#: front/eventer_actions.php:566 front/shortcodes.php:566
+msgid "Enable row"
+msgstr ""
+
+#: front/eventer_actions.php:581 front/shortcodes.php:563
+msgid "Place field shortcode"
+msgstr ""
+
+#: front/eventer_actions.php:582
+msgid "Copy"
+msgstr ""
+
+#: front/eventer_actions.php:582
+msgid "Paste"
+msgstr ""
+
+#: front/eventer_actions.php:586
+msgid "Remove Row"
+msgstr ""
+
+#: front/eventer_actions.php:611
+msgid "Add section"
+msgstr ""
+
+#: front/eventer_actions.php:612
+msgid "Full Column"
+msgstr ""
+
+#: front/eventer_actions.php:613
+msgid "1/2 - 1/2"
+msgstr ""
+
+#: front/eventer_actions.php:614
+msgid "4/10+3/10+3/10"
+msgstr ""
+
+#: front/eventer_actions.php:615
+msgid "4/10+6/10"
+msgstr ""
+
+#: front/eventer_actions.php:616
+msgid "4/10+4/10+2/10"
+msgstr ""
+
+#: front/eventer_actions.php:617
+msgid "1/3+1/3+1/3"
+msgstr ""
+
+#: front/eventer_actions.php:618
+msgid "1/4+1/4+1/4+1/4"
+msgstr ""
+
+#: front/eventer_actions.php:651 front/shortcodes.php:700
+msgid "Username"
+msgstr ""
+
+#: front/eventer_actions.php:653 front/shortcodes.php:704
+msgid "Password"
+msgstr ""
+
+#: front/eventer_actions.php:655
+msgid "Login"
+msgstr ""
+
+#: front/eventer_actions.php:656
+msgid "Forgot Password?"
+msgstr ""
+
+#: front/eventer_actions.php:823
+msgid "Date &amp; Time"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:342
+msgid "Username field 'username' is required."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:346
+msgid "Email field 'email' is required."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:350
+msgid "Password field 'password' is required."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:362
+msgid "You are successfully registered, please login now."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:367
+msgid "Username already exist."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:371
+msgid "Email already registered with us."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:375
+msgid "There is something went wrong."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:408
+msgid ""
+"Check your email for the verification code and enter it in the below field "
+"to reset the password."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:411
+msgid "Resend"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:413 front/eventer_rest_endpoints.php:432
+msgid "Verification code"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:430
+msgid "Please use this verification code to reset your password."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:435
+msgid "Reset password verficiation code"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:443
+msgid "Enter Password"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:445 front/shortcodes.php:706
+msgid "Repeat Password"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:447
+msgid "Reset"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:452
+msgid "Password reset successfully"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:456
+msgid "Please enter a valid verfication code"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:460
+msgid "Sorry, email entered is not registered with us."
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:506
+msgid "Incorrect Username or Password"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:561
+msgid "Add Field"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:565
+msgid "Field Type"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:579
+msgid "Div"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:583
+msgid "Mandatory"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:599
+msgid "Textarea Rows"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:618
+msgid "Field Class"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:629
+msgid "Field Name"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:640
+msgid "Event Fields"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:645
+msgid "Event Start Date"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:646
+msgid "Event End Date"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:648
+msgid "Recurring Event Switch"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:649
+msgid "Recurring"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:650
+msgid "Recurring Frequency"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:651
+msgid "Registration Switch"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:652
+msgid "Registration URL"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:653
+msgid "Registration Target"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:654
+msgid "Ticket Name1"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:655
+msgid "Ticket Quantity1"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:656
+msgid "Ticket Price1"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:657
+msgid "Ticket Name2"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:658
+msgid "Ticket Quantity2"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:659
+msgid "Ticket Price2"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:660
+msgid "Ticket Name3"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:661
+msgid "Ticket Quantity3"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:662
+msgid "Ticket Price3"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:668
+msgid "Venue Address"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:670
+msgid "Custom Meta"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:685
+msgid "Field Value"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:689
+msgid "Field Text"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:704
+msgid "+"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:709
+msgid "Insert Field"
+msgstr ""
+
+#: front/eventer_rest_endpoints.php:948
+msgid "New event added"
+msgstr ""
+
+#: front/front_functions.php:29
+msgid "Please fill all required fields."
+msgstr ""
+
+#: front/front_functions.php:30
+msgid "Field Should have Numbers Only."
+msgstr ""
+
+#: front/front_functions.php:31
+msgid "Field Should have Email Only."
+msgstr ""
+
+#: front/front_functions.php:32
+msgid "Please select payment options."
+msgstr ""
+
+#: front/front_functions.php:33
+msgid "Please select tickets."
+msgstr ""
+
+#: front/front_functions.php:34
+msgid "Proceed to paypal"
+msgstr ""
+
+#: front/front_functions.php:35
+msgid "Proceed to dotpay"
+msgstr ""
+
+#: front/front_functions.php:36
+msgid "Pay with Stripe"
+msgstr ""
+
+#: front/front_functions.php:37
+msgid "Tickets added."
+msgstr ""
+
+#: front/front_functions.php:40
+msgid "Select Booking Date"
+msgstr ""
+
+#: front/front_functions.php:43
+msgid "Details forwarded to event manager successfully."
+msgstr ""
+
+#: front/front_functions.php:60
+msgid "Add individual registrant details"
+msgstr ""
+
+#: front/front_functions.php:63
+msgid "Registrant name"
+msgstr ""
+
+#: front/front_functions.php:64
+msgid "Registrant email"
+msgstr ""
+
+#: front/front_functions.php:67
+msgid "Registrant"
+msgstr ""
+
+#: front/front_functions.php:777
+msgid "Ongoing"
+msgstr ""
+
+#: front/front_functions.php:789 front/front_functions.php:824
+#: front/front_functions.php:2539
+msgid "All Day"
+msgstr ""
+
+#: front/front_functions.php:822
+msgid "Upcoming Event"
+msgstr ""
+
+#: front/front_functions.php:1388
+msgid "to"
+msgstr ""
+
+#: front/front_functions.php:1506
+msgid "Search events for next six months."
+msgstr ""
+
+#: front/front_functions.php:1507
+msgid "Search events for next twelve months."
+msgstr ""
+
+#: front/front_functions.php:1511
+msgid "Search events for previous six months."
+msgstr ""
+
+#: front/front_functions.php:1512
+msgid "Search events for previous twelve months."
+msgstr ""
+
+#: front/front_functions.php:1586
+msgid "Sorry, no more events available for this month."
+msgstr ""
+
+#: front/front_functions.php:1586
+msgid "Sorry, there no more events found for your request."
+msgstr ""
+
+#: front/front_functions.php:1765
+msgid "Ticket Pre Registration Email"
+msgstr ""
+
+#: front/front_functions.php:1774
+msgid "Payment verification email"
+msgstr ""
+
+#: front/front_functions.php:1783
+msgid "Ticket Registration email"
+msgstr ""
+
+#: front/front_functions.php:1790
+msgid "New Registrant Details"
+msgstr ""
+
+#: front/front_functions.php:2224
+msgid "Someone contacted for below event"
+msgstr ""
+
+#: front/front_functions.php:2232
+msgid "Query for event"
+msgstr ""
+
+#: front/front_functions.php:3192
+msgid "Category"
+msgstr ""
+
+#: front/front_functions.php:3206
+msgid "By Event"
+msgstr ""
+
+#: front/front_functions.php:3282
+msgid "Stripe"
+msgstr ""
+
+#: front/front_functions.php:3413
+msgid "Available"
+msgstr ""
+
+#: front/front_functions.php:3421
+msgid "One time registration allowed for this ticket"
+msgstr ""
+
+#: front/front_functions.php:3430 front/front_functions.php:3504
+msgid "Total"
+msgstr ""
+
+#: front/front_functions.php:3478
+msgid "Choose"
+msgstr ""
+
+#: front/front_functions.php:3485
+msgid "Select Options"
+msgstr ""
+
+#: front/front_functions.php:3541
+msgid "Your tickets"
+msgstr ""
+
+#: front/front_functions.php:3580
+msgid "Please find tickets in attachment"
+msgstr ""
+
+#: front/front_functions.php:3992
+msgid "Coupon validated successfully."
+msgstr ""
+
+#: front/front_functions.php:4004
+msgid "Coupon validity period expired"
+msgstr ""
+
+#: front/front_functions.php:4007
+msgid "Coupon is disabled"
+msgstr ""
+
+#: front/front_functions.php:4011
+msgid "Coupon doesn't exist"
+msgstr ""
+
+#: front/front_functions.php:4015
+msgid "Coupon can not be empty"
+msgstr ""
+
+#: front/shortcodes.php:35
+msgid "Sorry, No more event to show"
+msgstr ""
+
+#: front/shortcodes.php:88
+msgid "days"
+msgstr ""
+
+#: front/shortcodes.php:96
+msgid "hr"
+msgstr ""
+
+#: front/shortcodes.php:104
+msgid "min"
+msgstr ""
+
+#: front/shortcodes.php:112
+msgid "sec"
+msgstr ""
+
+#: front/shortcodes.php:536
+msgid "Add Event"
+msgstr ""
+
+#: front/shortcodes.php:562
+msgid "Add Shortcode"
+msgstr ""
+
+#: front/shortcodes.php:564
+msgid "Delete Row"
+msgstr ""
+
+#: front/shortcodes.php:567
+msgid "There is some issue in processing."
+msgstr ""
+
+#: front/shortcodes.php:570
+msgid "Preview"
+msgstr ""
+
+#: front/shortcodes.php:584 front/shortcodes.php:782
+msgid "Please enter valid email address"
+msgstr ""
+
+#: front/shortcodes.php:585 front/shortcodes.php:783
+msgid "Please enter password"
+msgstr ""
+
+#: front/shortcodes.php:586
+msgid "Please enter same password as above"
+msgstr ""
+
+#: front/shortcodes.php:587 front/shortcodes.php:785
+msgid "Please enter verification code"
+msgstr ""
+
+#: front/shortcodes.php:588 front/shortcodes.php:786
+msgid "Please enter username"
+msgstr ""
+
+#: front/shortcodes.php:589
+msgid "Thank you for your submission!"
+msgstr ""
+
+#: front/shortcodes.php:590
+msgid ""
+"Your submission could not be processed at this time. Please try again later."
+msgstr ""
+
+#: front/shortcodes.php:676
+msgid ""
+"To view this page you must login to your account. Login below or register "
+"for a new account."
+msgstr ""
+
+#: front/shortcodes.php:688
+msgid "Not Registered Yet? Register Here"
+msgstr ""
+
+#: front/shortcodes.php:709 front/shortcodes.php:731
+msgid "Back to Login"
+msgstr ""
+
+#: front/shortcodes.php:730
+msgid "Validate"
+msgstr ""
+
+#: front/shortcodes.php:784
+msgid "Please enter same password"
+msgstr ""
+
+#: front/shortcodes.php:787
+msgid "Thanks for your submission!"
+msgstr ""
+
+#: front/shortcodes.php:788
+msgid "Your submission could not be processed."
+msgstr ""
+
+#: front/shortcodes.php:793
+msgid "Event is successfully added"
+msgstr ""
+
+#: front/shortcodes.php:794
+msgid "Event is successfully updated"
+msgstr ""
+
+#: front/shortcodes.php:804
+msgid "order"
+msgstr ""
+
+#: front/shortcodes.php:860
+msgid "Hi"
+msgstr ""
+
+#: front/shortcodes.php:861
+msgid "My Profile"
+msgstr ""
+
+#: front/shortcodes.php:862
+msgid "Change Password"
+msgstr ""
+
+#: front/shortcodes.php:863
+msgid "Logout"
+msgstr ""
+
+#: front/shortcodes.php:869
+msgid "Help"
+msgstr ""
+
+#: front/shortcodes.php:910
+msgid "Order Pending"
+msgstr ""
+
+#: front/shortcodes.php:911
+msgid "Tickets Available"
+msgstr ""
+
+#: front/shortcodes.php:931 front/shortcodes.php:937
+msgid "Under Review"
+msgstr ""
+
+#: front/shortcodes.php:932
+msgid "Active"
+msgstr ""
+
+#: front/shortcodes.php:933 front/shortcodes.php:938
+msgid "Disabled"
+msgstr ""
+
+#: front/shortcodes.php:967
+msgid "Delete"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://eventer.imithemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WordPress Event Manager Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "imithemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.imithemes.com"
+msgstr ""

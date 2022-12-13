@@ -1,0 +1,31 @@
+.eventer-modal-blocker{position:fixed;top:0;right:0;bottom:0;left:0;width:100%;height:100%;overflow:auto;z-index:9999;padding:20px;box-sizing:border-box;background-color:#000;background-color:rgba(0,0,0,0.75);text-align:center}
+
+.eventer-modal-blocker:before{content:"";display:inline-block;height:100%;vertical-align:middle;margin-right:-0.05em}
+
+.eventer-modal-blocker.behind{background-color:transparent}
+
+.eventer-modal-wrap{display:none;vertical-align:middle;position:relative;z-index:2;max-width:600px;box-sizing:border-box;width:90%;background:#fff;padding:30px;-webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);-moz-box-shadow: 0 0 20px rgba(0,0,0,.2);-o-box-shadow: 0 0 20px rgba(0,0,0,.2);-ms-box-shadow: 0 0 20px rgba(0,0,0,.2);box-shadow: 0 0 20px rgba(0,0,0,.2);text-align:left}
+
+.eventer-modal a.eventer-modal-close{position:absolute;top:12px;right:12px;display:block;width:30px;height:30px;font-size: 0; color: #333}
+
+.eventer-modal a.eventer-modal-close:before{
+	font-family:simple-line-icons;
+	speak:none;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	content:"\e082";
+	font-size: 20px
+}
+
+.modal-spinner{display:none;position:fixed;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);padding:12px 16px;border-radius:5px;background-color:#111;height:20px}
+
+.modal-spinner>div{border-radius:100px;background-color:#fff;height:20px;width:2px;margin:0 1px;display:inline-block;-webkit-animation:sk-stretchdelay 1.2s infinite ease-in-out;animation:sk-stretchdelay 1.2s infinite ease-in-out}
+
+.modal-spinner .rect2{-webkit-animation-delay:-1.1s;animation-delay:-1.1s}
+
+.modal-spinner .rect3{-webkit-animation-delay:-1.0s;animation-delay:-1.0s}
+
+.modal-spinner .rect4{-webkit-animation-delay:-0.9s;animation-delay:-0.9s}@-webkit-keyframes sk-stretchdelay{0%,40%,100%{-webkit-transform:scaleY(0.5)}20%{-webkit-transform:scaleY(1.0)}}@keyframes sk-stretchdelay{0%,40%,100%{transform:scaleY(0.5);-webkit-transform:scaleY(0.5)}20%{transform:scaleY(1.0);-webkit-transform:scaleY(1.0)}}

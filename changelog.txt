@@ -1,0 +1,458 @@
+*** Change Log ***
+
+04 June 2021 - Version 3.2
+	NEW! Option to use filters with the pagination enabled
+	NEW! Additional info text for the event details section
+	NEW! Additional content for the emails like adding Zoom meeting URLs
+	FIXED! Registrant name not working when counter is enabled
+	FIXED! Ticket restrictions not working for some users
+	FIXED! Social sharing icon not showing on hover
+	FIXED! Problem with date picker on single event details page
+	FIXED! Some styling bugs
+
+28 December 2020 - Version 3.1
+	NEW! Option to delete bulk bookings
+	NEW! Option to disable PayPal payment option
+	FIXED! Free events doesn't work if Stripe payment is active only
+	FIXED! Decimal prices not working for offline payments
+	FIXED! Wrong credit card info not allowing to change it in Stripe payments
+	FIXED! Services & Coupons not working when using dynamic booking calendar
+	FIXED! Rest API permission issue in WP 5.6 version
+	FIXED! General settings tab doesn't remain active after saving
+	FIXED! Some issues with JPY currency
+	FIXED! Multi days events showing as passed in thank you message
+	FIXED! Time slot not taking time settings
+	FIXED! Print ticket not working in Safari browser
+	FIXED! Woocommerce tickets not getting added for multi days events
+	FIXED! Some styling bugs
+
+20 August 2020 - Version 3.0.1
+	FIXED! Date wise tickets are getting reset while opening event edit page
+	FIXED! Some styling bugs
+
+15 August 2020 - Version 3.0
+	NEW! Multiple venue option for events grid
+	NEW! Restore ticket option for default payment system
+	NEW! Ticket slot time field in booking CSV export
+	UPDATE! Compatibility with WP version 5.5
+	FIXED! Radio/Checkbox fields not validating
+	FIXED! Add ticket field not working post 10 ticket types
+	FIXED! Ticket details not updating when editing event from frontend
+	FIXED! HTML markup in the event title not showing in calendar view
+	FIXED! Remaining ticket count not working properly when event is added through frontend
+	FIXED! Tabs/Shortcode regenerator not working in WP Dashboard
+
+03 June 2020 - Version 2.9
+	NEW! Field for specific venue in event
+	IMPROVEMENT! Booking calendar will now show selected date instead of default text
+	IMPROVEMENT! Bookings search in the admin
+	FIXED! Polylang plugin not working correctly
+	FIXED! Common ticket count not working with Woocommerce
+	FIXED! Event with multi days with different time not showing correctly
+	FIXED! 500 error when submitting Stripe payment form without filling the fields
+	FIXED! Date missing when using grid with language other than English
+	FIXED! Send tickets from admin not working for some users
+	FIXED! URL escaping in the grid view
+	FIXED! Static all day text showing in the list
+	FIXED! Some typo in the emails
+	FIXED! Custom permalinks not working in calendar view
+	FIXED! Stripe payments not rounding off the amount properly
+	FIXED! Total ticket values removing decimals
+	FIXED! Google events showing wrong time
+	FIXED! Frontend dashboard not working correctly on IE browser
+	FIXED! Events filter not working in bookings page
+	FIXED! New woo commerce ticket from existing product isn't working
+
+29 January 2020 - Version 2.8
+	NEW! Option to view/update details of bookings
+	NEW! Stripe payment SCA authentication added
+	NEW! Booking search is now can accept any value to search
+	NEW! Currency code for second belarusian ruble
+	IMPROVEMENT! Setting csv import for default payment
+	IMPROVEMENT! Event that have different dates in start and end date field and user wants to set all day
+	FIXED! Grid alignment issue on filters
+	FIXED! Problem with polylang plugin translations
+	FIXED! Date filter not working for some users
+	FIXED! Some styling bugs
+
+27 September 2019 - Version 2.7.3.1
+	FIXED! Bug with event registrations
+
+27 September 2019 - Version 2.7.3
+	NEW! Option to add custom booking form for every event
+	FIXED! Compact list showing incorrect date
+	FIXED! All day event showing event end date
+	FIXED! Event data not saving for some users
+
+26 September 2019 - Version 2.7.2
+	FIXED! Stripe payments checkout not working
+
+15 September 2019 - Version 2.7.1
+	IMPROVED! Stripe payment system integration
+	IMPROVED! Event booking with time slots functionality
+	FIXED! Events product style grid linking issue
+	FIXED! Some bugs with Woocommerce checkout
+	FIXED! WPML shows blank IDD for events for some users
+	FIXED! iCalendar not saving events
+	FIXED! Linking issue with events grid when no featured image is available
+	FIXED! Contact Form modal box not getting closed
+	FIXED! Year tab is not visible in filters when events are available for only single year
+	FIXED! Front end event submission not working
+	FIXED! Multi date events showing only last date on details page
+	FIXED! Infinite loading at checkout process
+	FIXED! All day events not working properly
+	FIXED! Booking not visible for some users
+	FIXED! Countdown not working for featured events
+	FIXED! Some styling bugs
+
+02 August 2019 - Version 2.7
+	NEW! Option to apply coupon codes for default payment options
+	NEW! Option to set default payment status
+	NEW! Option to disable shortcake preview link
+	NEW! Option to disable carousel scripts in case of conflict with a theme
+	FIXED! Some domains not validating registered email address
+	FIXED! Issue with href tag passing to event URL
+	FIXED! Custom badges not working
+	FIXED! Event countdown not working with some themes
+	FIXED! Booking calendar to not show if event is not recurring
+	FIXED! Events with same date/time not showing in the list
+	FIXED! Assets file should use plugin's version instead of theme's
+	FIXED! Externally linked event redirecting to single event page first
+	FIXED! Organisers website URL opening in same window
+	FIXED! Countdown counting from local time
+	FIXED! Future events links should be shown only when events are available
+	FIXED! An issue with events tickets not showing when using Woocommerce
+	FIXED! Woocommerce tickets to show by default if product is available
+	FIXED! Some styling issues with Bridge theme
+	FIXED! Categories with no events not showing in addd event page
+	FIXED! Woocommerce orders not updating by own
+	FIXED! Classic list tickets button not working
+
+05 May 2019 - Version 2.6.3
+	NEW! Stripe payment gateway added as default payment options
+	FIXED! Some stylings bugs
+
+25 April 2019 - Version 2.6.2.1
+	FIXED! Woocommerce checkout not showing
+	
+24 April 2019 - Version 2.6.2
+	NEW! Custom venue name field for events
+	NEW! Option to preview shortcodes while generating them
+	IMPROVEMENT! Selected date visible in booking date calendar button
+	IMPROVEMENT! Option to count all tickets from single field
+	IMPROVEMENT! Filters are now alphabetically sorted
+	IMPROVEMENT! Date and time format in booking is now as per WP settings
+	IMPROVEMENT! Check for only WP events
+	FIXED! Time slots not updating while changing date from booking calendar
+	FIXED! Australian dollar option missing from PayPal currency options
+	FIXED! Excerpt now working for shortcodes
+	FIXED! Date sort function not working for filters
+	FIXED! Clean grid style not redirecting to details page
+	FIXED! Some issue with Divi theme
+	FIXED! Some styling bugs with The 7 theme
+	FIXED! Warnings while fetching tickets
+	FIXED! CSV import not working properly with registrants fields
+	FIXED! Bookings filter not working when selecting a specific event
+	FIXED! Some compatibility issue with IE browser
+	FIXED! Woocommerce tickets showing on front end while not available in the back end
+	FIXED! Login form styling issues in mobile devices
+	FIXED! Grid not aligned properly in mobile devices
+
+05 March 2019 - Version 2.6.1
+	FIXED! Woocommerce payments not getting processed
+
+01 March 2019 - Version 2.6
+	NEW! Option to hide past events
+	NEW! Option to manually checkin by Ticket
+	NEW! Option to autocomplete payments
+	NEW! Archive page custom template option
+	NEW! Option to reset ticket details in the add event page ticket section
+	IMPROVED! Calendar will now show the weeks as per the month not fixed like before
+	IMPROVED! Booking DB tables
+	FIXED! Recurring week day function is not working properly
+	FIXED! Recurring events showing same weekday in date format
+	FIXED! Woocommerce ticket showing different ticket ID every time
+	FIXED! Woocommerce contacting check for single event page only
+	FIXED! Date not showing in plain grid style
+	FIXED! Some styling issues
+	FIXED! Events to be treated as single event when start and end date doesn't match
+	FIXED! Event slot time discrepancy in tickets
+	FIXED! Save event option not working
+	FIXED! Cart page not showing proceed button
+	FIXED! Time slot data removed from Woocommerce ticket
+	FIXED! PayPal payment info not passing in the system
+	FIXED! Plugin's ajax system not working with other language pages of WPML
+	FIXED! User's Dashboard submissions tab not loading for some users
+	FIXED! Alignment of grid layout after filter ajax call
+	FIXED! Some conflicts with Divi Theme
+	FIXED! Some bugs with featured events display
+	FIXED! Some themes not showing venter settings page
+	FIXED! Filters not working properly when there are multiple shortcodes added to a single page
+	FIXED! Some compatibility issues with WPML plugin	
+	FIXED! Woocommerce tickets keeps showing processing status for tickets
+	FIXED! Night time events with not more than 1 days should be treaded as single day event
+	FIXED! Specific event bookings importing ll events while using default payment gateway
+	FIXED! Woocommerce tickets not adding for specific date in date wise section
+	FIXED! Tickets were not saving when using Polylang plugin
+	FIXED! Event date is not working for single occurrence events several times
+	FIXED! Events calendar not honouring time settings set in Eventer settings
+	FIXED! Select booking date button text is not translatable
+	FIXED! Woocommerce orders showing pending when using Woocommerce code to auto complete orders	
+
+14 January 2019 - Version 2.5.2
+	UPDATED! wc_functions.php template
+	FIXED! All day event not working correctly
+	FIXED! Some event types not working in VC
+	FIXED! Name and Email should be auto filled for logged in users
+	FIXED! Additional registrants details not showing in csv
+	FIXED! Mini cart throwing some errors for some users
+	FIXED! Services setup not working for some events
+	FIXED! init functions delegate function update
+
+03 January 2019 - Version 2.5.1
+	FIXED! Added some new thumbnail size to fix new grid/list view layouts
+	FIXED! Modal window not opening for some users
+
+02 January 2019 - Version 2.5
+	NEW! 4 new events list styles
+	NEW! 5 new grid styles
+	NEW! Events carousel option for grid view
+	NEW! 3 slider style NEW! Filters options for grid view
+	IMPROVED! Social sharing and event save options
+	FIXED! IE11 compatibility fixes
+	FIXED! PHP 7.2 bugs resolved
+	FIXED! Restoring of tickets not working correctly
+	FIXED! Additional buttons on single event page option to hide not working
+	FIXED! Canadian Dollar option was missing from PayPal currency settings
+	FIXED! Taxonomies not showing in WP 5.0+
+	FIXED! Events filters issue in IE browser
+	FIXED! Ticket reset option not working
+
+27 November 2018 - Version 2.4.2
+	NEW! Multiple time slots for a single event
+	NEW! Option to select a time slot for ticket booking
+	NEW! Option to hide print, contact, future events, Directions links from single events page
+	NEW! Option to show end time of events in calendar view
+	NEW! Option to set a maximum limit allowed for booking per ticket type
+	FIXED! A styling bug in event ticket image that is sent to email
+	FIXED! Some styling issue with tickets layout on single event page when Woocommerce ticket system is been used
+	FIXED! A bug with the Visual Composer integration
+	FIXED! Compatibility issue with Salient theme custom VC plugin
+	FIXED! Book ticket button gets hidden when date is selected from calendar
+	FIXED! Currency sign not taking space with the price
+	FIXED! Currency sign position changed when ticket count is changed in ticket booking popup
+	FIXED! Google events showing error for some users
+	FIXED! Book Ticket button not showing after date selection in multilingual websites
+	FIXED! Some static text strings were not translatable
+	FIXED! QR Code was showing on thank you page for incomplete payments
+	FIXED! Event date was storing wrong for some users in bookings
+	FIXED! Woocommerce product sold individually option now works for the tickets as well
+	FIXED! Unused venter class removed from the event details content section
+	FIXED! Event count was not updating when ticket payment status is changed
+
+25 September 2018 - Version 2.4.1
+	NEW! Option to choose event date with in the ticket section while booking
+	FIXED! Some styling bugs
+
+25 September 2018 - Version 2.4
+	NEW! Option to set events as featured and show them on top of the events list
+	NEW! Option to hide past events in monthly, yearly views
+	NEW! Option to select recurring event date on event details page for registration of any future date
+	IMPROVEMENT! Filter events using AND/OR operator
+	IMPROVEMENT! All available currency options added while using plugin's default payment option
+	IMPROVEMENT! Apply filter for the content of emails
+	IMPROVEMENT! Google events now loading in a new improved way to speed up the load time
+	FIXED! Ticket count not working properly with Polylang plugin
+	FIXED! Some warning message with pagination
+	FIXED! Some options were not translatable
+	FIXED! Order summary box infinite loading when using plugin's layout with Woocommerce
+	FIXED! Multi day events event to show start/end dates in event details page and emails sent
+	FIXED! Tickets count not working while using Woocommerce with default layout
+	FIXED! Decimals values not working with Woocommerce after decimals
+	FIXED! Plugin's PayPal payment system doesn't; t have correct IPN message
+	FIXED! Removed eventer class put on single page entry div to avoid typography problems
+	FIXED! Checkout section isn't updating while changing data in the Woo minicart
+	FIXED! Event calendar not working when used with tabs
+	FIXED! Add new form first section isn't visible once form is edited
+	FIXED! Woocommerce coupon toggle box not working while using with plugin's layout
+	FIXED! Bookings not working for some users when using Woocommerce with plugin layout
+
+17 August 2018 - Version 2.3.1
+	FIXED! New shortcodes for dashboard and add new form requiring event activation hook
+	FIXED! Stripe payment and checkout js not working with Woocommerce
+	FIXED! PayPal payments IPN not working for plugin default payment system
+	FIXED! Woocommerce optional fields also showing as required while placing order
+	FIXED! Deleted events showing even after deleted
+
+16 August 2018 - Version 2.3
+	NEW! Front end add new event form
+	NEW! From end add new event form drag drop builder
+	NEW! User Dashboard to see created events and bookings
+	NEW! User Login/Register forms in new Dashboard
+	IMPROVED! Ticket image resolution
+	FIXED! Event title not showing when csv downloaded for bookings 
+	FIXED! Cancelled tickets doesn't restore with Woocommerce setup
+	FIXED! hyphen not working in price field of Woocommerce
+	FIXED! Woocommerce payment proceeding without validating fields
+	FIXED! Some styling bugs
+
+07 July 2018 - Version 2.2.1
+	FIXED! An issue with VC shortcodes not getting activated properly
+
+05 July 2018 - Version 2.2
+	NEW! WPBakery page builder compatibility, 4 shortcodes added for the page builder
+	FIXED! Eventers folder with custom template not working from child theme
+	FIXED! Event name not showing in ticket for some users
+	FIXED! Badge not saving while creating events
+	FIXED! eventer-overflow-hidden class was adding by default causing webpage not scrollable
+	FIXED! Save event options not working for some users
+	FIXED! Some styling bugs
+
+05 June 2018 - Version 2.1
+	FIXED! Tickets not getting generated for several users
+	FIXED! Event preview on calendar positioning
+	FIXED! Shortcodes for details page not working for some users
+	FIXED! Some styling bugs
+
+24 May 2018 - Version 2.0
+	NEW! Option to set custom permalink for events to redirect event to some specific URL
+	NEW! Event preview option for events calendar
+	NEW! Option to show events venue name in the list view in place of full address
+	NEW! Option to disable event post type archive template so you can create a page with same slug as your events slug
+	FIXED! Styling bug with event status badge
+	UPDATED! Some functions and file locations
+	UPDATED! Few plugin functions to start withe venter prefix to avoid conflict with some themes
+	FIXED! Show event featured image in the woo commerce cart instead of product
+	FIXED! Single event ticket delivery when only one person is registered
+	FIXED! A bug which sometimes disabled addition of tickets to woo cart
+	FIXED! Cart messages while using for event ticketing
+	FIXED! Child terms not working while adding only parent term for shortcodes
+	FIXED! Booking doesn't get deleted for some cases
+	FIXED! Plugin's payment options not showing under settings for some users
+	FIXED! Full day event not showing on events calendar
+
+03 May 2018 - Version 1.9
+	NEW! Event registration through woo commerce now show records in Eventer plugin Bookings tab
+	NEW! Admin can send tickets from booking records manually and can also download tickets from there
+	NEW! Now multi date events show both start end date in list view
+	NEW! Unlimited ticket types for woo commerce event registration
+	FIXED! Some bug related to woo commerce event registration
+
+20 April 2018 - Version 1.8.1
+	UPDATED! Woocommerce tickets to set all tickets as virtual product to avoid shipping costs
+	FIXED! Date wise price not working for Woocommerce tickets
+	FIXED! Currency symbol not correct for Woo tickets
+	FIXED! Event content now showing when using plugin layout for Woocommerce tickets
+	FIXED! UI date picker conflict with some themes
+	FIXED! Some styling bugs	
+
+17 April 2018 - Version 1.8
+	NEW! Woocommerce cart and checkout can now use the plugin' own checkout UI in the popup modal
+	NEW! Date wise booking records for Woocommerce tickets
+	NEW! Now sell additional services along with tickets using Woocommcerce payment system
+	FIXED! Some minor bugs and styling issues
+
+07 April 2018 - Version 1.7
+	NEW! Now users can see venue and organiser details while selecting it within the add new event
+	NEW! Download tickets option when admin set the payments to be autocomplete by default
+	NEW! Custom cart URL for woo commerce payments
+	NEW! Filters and services dropdown to auto close now
+	FIXED! some themes shows multiple events element to details page
+	FIXED! Woocommerce sale price doesn't show correctly
+	FIXED! Organizer website link doesn't work correct for some users
+	FIXED! Woocommerce tickets are not getting attached to email when same name tickets are users for some other event
+
+26 March 2018 - Version 1.6
+	NEW! Now single-venter.php is not a mandatory template for your theme
+	NEW! Event single page shortcodes for event data
+	FIXED! A bug with some selected events
+	FIXED! Some javascript bugs
+	FIXED! Some styling bugs
+	FIXED! A bug with excerpt with share event links
+
+14 March 2018 - Version 1.5.4
+	FIXED! Compatibility issue with some plugin using the same venue fields function
+	FIXED! Eventer woo commerce add to cart function not updating woo minicart
+	UPDATED! .pot file to add new text strings
+
+12 March 2018 - Version 1.5.3
+	UPDATED! Additional services UI to allow users to deselect any selected service in the cart
+	FIXED! Save event options not working on some environment
+	FIXED! Some styling bugs
+	FIXED! Problem with sending attached tickets in multi site WordPress install
+	FIXED! A bug with venue image when updating any venue
+	FIXED! Calendar page not filtering events with multiple selected terms
+	FIXED! A bug with json data in shortcodes.php
+	FIXED! Individual registrants fields not working correct when multiple ticket choices are present
+	FIXED! Passed badge not working correctly
+	FIXED! Event archive not working properly
+
+03 March 2018 - Version 1.5.2
+	FIXED! Styling bug with new passed label badge feature
+
+02 March 2018 - Version 1.5.1
+	NEW! Option to show "Passed" label on the events that are passed on date
+	NEW! Option to send ticket as attachment in user email using woo commerce payments
+	NEW! Option to set custom label like "Upcoming", "New" etc on each event on different dates
+	FIXED! Some styling bugs
+
+22 February 2018 - Version 1.5
+	NEW! Individual fields for name and email of every registrants when registering multiple tickets at a time
+	NEW! Option to send tickets as attachment to user's email
+	NEW!  Option to select currency symbol position for price field
+	NEW! Now registration for events is possible without creating ticket types. This can be used as RSVP
+	NEW! Address and map coordinates field for event venue taxonomy
+	NEW! Now tickets can be sent with QR codes in the email
+	IMPROVED! Single event page layout
+	FIXED! Bug with event available and event quantity in event bookings
+	FIXED! Passed event message for woo commerce ticket booking
+	FIXED! eventer.php template not working from child theme
+	FIXED! Woocommerce tickets language is not set when using WPML
+	FIXED! Some missing static text strings
+	FIXED! Some styling bugs
+	FIXED! If registration is off for an event then event details box should be full width
+	FIXED! Google events not showing when there is no event from the WP
+
+25 January 2018 - Version 1.4.1
+	FIXED! Console error for live function
+	FIXED! Datepicker library to load only if required
+	FIXED! Next arrow in events filter not showing for certain cases
+	FIXED! Name not showing for event in woo commerce
+	FIXED! Translation bug with woo commerce tickets
+	FIXED! Events import function not saving event dates in correct format
+	UPDATED! Some hooks for plugin stability
+	FIXED! Some styling bugs
+	FIXED! Event ticket from website not working correctly
+	FIXED! Some styling bugs	
+
+15 January 2018 - Version 1.4
+	NEW! Additional services payment for events
+	NEW! Load events by date range in list view
+	NEW! Option to restrict event registrations for one time for any ticket type
+	NEW! Ticket send in email for woo commerce payments for events
+	NEW! Email template for tickets(Available here: https://eventer.imithemes.com/documentation/
+	FIXED! Some styling bugs
+	FIXED! Some theme compatibility bugs
+	FIXED! Repeated emails sending on the view ticket URL page refresh
+	FIXED! Ticket URL were sent for offline payments, now it will be sent only when the payments status is changed to "Success"
+	IMPROVED! Loading speed
+	IMPROVED! Bookings list to sort by latest date
+
+15 December 2017 - Version 1.3
+	NEW! WooCommerce payments for events
+	FIXED! Some styling bugs
+
+03 December 2017 - Version 1.2
+	NEW! Option to repeat events every 2 weeks, 3 weeks, 4 weeks etc.
+	FIXED! Some styling bugs
+	FIXED! Tooltip title on future events link was wrong on single events page
+	FIXED! Saving a recurring event to ical and other calendars were saving wrong dates
+	NEW! Loading animation on events calendar
+	FIXED! Old price styling not working
+	IMPROVED! Some styling
+
+28 November 2017 - Version 1.1
+	FIXED! Multiple event countdown shortcode on a single page not working correctly
+
+22 November 2017- Version 1.0
+	INITIAL RELEASE

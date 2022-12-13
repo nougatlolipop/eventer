@@ -1,0 +1,21 @@
+<wpml-config>
+<admin-texts>
+<key name="eventer_options">
+ <key name="ticket_booking_fields"/>
+ <key name="contact_organizer_fields"/>
+ <key name="google_apikey"/>
+ <key name="google_cal_apikey"/>
+ <key name="cal_id"/>
+ <key name="payment_confirmation_content"/>
+ <key name="pre_registration_content"/>
+ <key name="add_new_event_content"/>
+ <key name="add_new_event_published"/>
+ <key name="email_tickets_attachment"/>
+ <key name="eventer_event_permalink"/>
+ <key name="eventer_event_category_permalink"/>
+ <key name="eventer_event_tag_permalink"/>
+ <key name="eventer_event_venue_permalink"/>
+ <key name="eventer_event_organizer_permalink"/>
+</key>
+</admin-texts>
+</wpml-config>
